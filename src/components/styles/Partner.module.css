@@ -33,7 +33,7 @@ div > img{
     padding: 66px;
     /* z-index: 1; */
     top: -1rem;
-    left: 10rem;
+    left: 1rem;
     border-radius: 30% 50% 20% 30%;
     opacity: .2;
 }
@@ -44,7 +44,7 @@ div > img{
     padding: 66px;
     /* z-index: 1; */
     top: -1rem;
-    left: 35.5rem;
+    left: 27rem;
     border-radius: 30% 50% 20% 30%;
     opacity: .2;
 }
@@ -54,7 +54,7 @@ div > img{
     padding: 66px;
     /* z-index: 1; */
     top: -.5rem;
-    left: 61rem;
+    left: 52.5rem;
     border-radius: 30% 50% 20% 30%;
     opacity: .2;
 }

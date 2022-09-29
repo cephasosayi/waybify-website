@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Col, Row, Button, Image} from 'react-bootstrap';
-import styles from './styles/Hero.module.css'
-import deliveryman from '../assets/img/deliveryman.jpg'
-import whatsapp from '../assets/icons/whatsapp.png'
-import collect from '../assets/icons/collect.png'
-import deliver from '../assets/icons/deliver.png'
-import box from '../assets/icons/package.png'
+import styles from './styles/Hero.module.css';
+import deliveryman from '../assets/img/deliveryman.jpg';
+import whatsapp from '../assets/icons/whatsapp.png';
+import collect from '../assets/icons/collect.png';
+import deliver from '../assets/icons/deliver.png';
+import box from '../assets/icons/package.png';
 
 
 
