@@ -9,16 +9,16 @@ import box from '../assets/icons/package.png';
 
 
 
-import {PhoneCall, ArrowRight} from 'react-feather'
+import {ArrowRight} from 'react-feather'
 function Hero() {
   return (
       <Container className={`${styles.hero}`} >
           <Row className={`mt-3`}>
           <Col lg={6} sm={12} md={6} className={`${styles.col1} mt-2`}>
-                  <h2 className={`${styles.text1}`}>Let's Help you meet your Business Goals!</h2>                  
-                  <h2 className={`${styles.text2}`}>We Fulfil all delivery under 48hours</h2>
+                  <h1 className={`${styles.text1}`}>Let's Help you meet your Business Goals!</h1>                  
+                  <h1 className={`${styles.text2}`}>We Fulfil all delivery under 48hours</h1>
 
-                  <p>Waybify is an on-demand delivery service, we connect businesses with drivers,
+                  <p >Waybify is an on-demand delivery service, we connect businesses with drivers,
                 helping you meet your business goals.
                   </p>
                   <small className={`${styles.small}`}>Need us, WhatsApp us NOW! </small>

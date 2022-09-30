@@ -15,13 +15,13 @@ function Header() {
         <Navbar.Brand href="#home">Waybify</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className=" ms-auto me-auto justify-content-center justify-content-between ">
+          <Nav className=" ms-auto  justify-content-center justify-content-between ">
             <Nav.Link href="#home" className={`${styles.link}`} >How it works</Nav.Link>
             <Nav.Link href="#link" className={`${styles.link}`}>Contack us</Nav.Link>
             <Nav.Link href="#link" className={`${styles.link}`}>FAQ</Nav.Link>           
                   </Nav>
                   
-                  <div className={`${styles.navbtn} ms-auto justify-content-between `}>
+                  <div className={`${styles.navbtn} ms-auto  `}>
                       <Button variant='primary' className={`${styles.btn} me-1 `}><Image src={whatsapp} alt='' className={`${styles.whatsapp}`} /> Whatsapp us</Button>
                       {/* <Button variant='danger' className={`${styles.btn}`}>Call us</Button> */}
                       

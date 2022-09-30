@@ -10,13 +10,13 @@ import g1 from '../assets/img/g1.png'
 
 function Partner() {
   return (
-      <Container>
+      <Container fluid className={`${styles.top}`}>
           <Container>
               <div className={`${styles.partner}`}>
                   <div className={`${styles.part1}`}>
                       <div className={`${styles.g1}`}></div>
                       <img src={drive} alt='driver' />
-                      <h2>Become a Waybifier Driver</h2>
+                      <h2>Become a Driver</h2>
                       <p>As a Delivery driver, you'll make reliable money moving items to our agents</p>
                       <Button variant='link' className={`${styles.btn}`}>Start today</Button>
                   </div>  
@@ -34,7 +34,7 @@ function Partner() {
                   <div className={`${styles.g3}`}></div>                      
                       <img src={app} alt='driver' />
                       <h2>Try the App</h2>
-                      <p>COMING SOON</p>
+                      <p className='fw-bold text-danger'>COMING SOON</p>
                       <p>For your orders, chat with our agents</p>
                       <Button variant='link' className={`${styles.btn}`} >Send a Message</Button>
                   </div>  
