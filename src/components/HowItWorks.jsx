@@ -1,10 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import styles from './styles/HowItWorks.module.css'
 import phone from '../assets/img/phone.png';
 import pickup from '../assets/img/pickup.jpg';
 import deliver from '../assets/img/deliver.jpg';
 import door from '../assets/img/door.jpg';
+import whatsapp from '../assets/icons/whatsapp.png';
+
 
 
 
@@ -12,7 +14,7 @@ import door from '../assets/img/door.jpg';
 
 function HowItWorks() {
   return (
-      <Container className={`${styles.hiws} `}>
+      <Container className={`${styles.hiws} mb-5 `}>
           <div >
               <h2>How Waybify Works</h2>
               <p>Our mobile App is under development, however, this is how we operate for now</p>
@@ -28,6 +30,7 @@ function HowItWorks() {
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
                       the get your message, order desciption, location and then come to your location for pickup
                       </p>
+                      <Button variant='success' className={`${styles.btn} `}><img src={whatsapp } className={`${styles.icon}`} alt='' /> Send us a Message Now</Button>
                       </div>
               </Col>
               {/* pickup  */}
