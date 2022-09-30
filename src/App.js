@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Hero/>
       <Partner />
-      <HowItWorks/>
+      <HowItWorks />
+      <Contact/>
       </div>
   );
 }

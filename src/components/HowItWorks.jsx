@@ -14,7 +14,7 @@ import whatsapp from '../assets/icons/whatsapp.png';
 
 function HowItWorks() {
   return (
-      <Container className={`${styles.hiws} mb-5 `}>
+      <Container className={`${styles.hiws} mb-5 h-100`} id='hiws'>
           <div >
               <h2>How Waybify Works</h2>
               <p>Our mobile App is under development, however, this is how we operate for now</p>
