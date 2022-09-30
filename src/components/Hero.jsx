@@ -14,7 +14,7 @@ function Hero() {
   return (
       <Container className={`${styles.hero}`} >
           <Row className={`mt-3`}>
-          <Col lg={6} sm={12} md={6} className={`${styles.col1} mt-2`}>
+          <Col lg={6} sm={12} md={6} className={`${styles.col1} mt-1`}>
                   <h1 className={`${styles.text1}`}>Let's Help you meet your Business Goals!</h1>                  
                   <h1 className={`${styles.text2}`}>We fulfil all delivery under 48hours</h1>
 
@@ -24,7 +24,7 @@ function Hero() {
                   <small className={`${styles.small}`}>Need us, WhatsApp us NOW! </small>
                   <div className={`${styles.btngroup} d-flex gap-2`}>
             <Button variant='success' href='https://wa.me/2348068257152' className={`${styles.btn1}`}><Image src={whatsapp} alt='' className={`${styles.whatsapp}`} /> WhatsApp us</Button>
-                      <Button variant='link' href='tel:08068257152' className={`${styles.btn2}`}>Call us <ArrowRight color='black' size={16}/> </Button>
+                      <Button variant='link' href='tel:08068257152' className={`${styles.btn2} mt-1`}>Call us <ArrowRight color='black' size={16}/> </Button>
 
           </div>
           {/* why us  */}
@@ -48,7 +48,7 @@ function Hero() {
                       </div>
 
            {/* blur divs */}
-           <div className='blur' style={{ background: 'rgba(82, 114, 255, 0.491)'}}></div>
+           <div className='blur' style={{ background: 'rgba(0, 51, 146, 0.502)'}}></div>
            
           </Col> 
               </Row>    

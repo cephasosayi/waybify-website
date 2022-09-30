@@ -35,7 +35,7 @@ div > img{
 
 .g1{
     position: absolute;
-    background: #5271ff ;
+    background: #003392 ;
     padding: 66px;
     /* z-index: 1; */
     top: -1rem;
@@ -46,7 +46,7 @@ div > img{
 
 .g2{
     position: absolute;
-    background: #5271ff ;
+    background: #003392 ;
     padding: 66px;
     /* z-index: 1; */
     top: -1rem;
@@ -56,7 +56,7 @@ div > img{
 }
 .g3{
     position: absolute;
-    background: #5271ff ;
+    background: #003392 ;
     padding: 66px;
     /* z-index: 1; */
     top: -.5rem;
@@ -91,7 +91,7 @@ div>p{
 }
 
 .btn{
-    color: #5271ff !important;
+    color: #003392 !important;
     text-decoration: none !important;
     width: 100%;
     display: flex;

@@ -53,7 +53,7 @@
         color: white !important;
         font-size: 1rem !important;
         padding: 11px 26px 11px 26px !important;
-        background: linear-gradient(180deg, #5271ff 26.71%, #5271ff 99.36%);
+        background: linear-gradient(180deg, #003392 26.71%, #003392 99.36%);
         box-shadow: 0px 2px 2px 5px  rgba(82, 114, 255, 0.17)
 }
 
@@ -70,11 +70,11 @@
 }
 .btn1:hover{
     /* color: #fff !important;
-    background: #5271ff!important; */
+    background: #003392!important; */
     border: none !important;
 
     transform: scale(1.03);
-    box-shadow: 2px 2px 2px 2px  rgba(82, 114, 255, 0.33)
+    box-shadow: 2px 2px 2px 2px  #00339259
  }
  .btn2:hover{
    color: gray !important;
