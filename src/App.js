@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
+import Locations from "./components/Locations";
 import Partner from "./components/Partner";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Partner />
       <HowItWorks />
+      <Locations/>
       <Contact />
       <Footer/>
       </div>

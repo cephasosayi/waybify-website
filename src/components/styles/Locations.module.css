@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+.placetop{
+position: relative;
+top: 15rem;
+height: 250px;
+background: url('../../assets/img/Map.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+bottom: 5rem;
+padding: 15px;
+}
+.title{
+    font-family:'Inter', sans-serif;
+    line-height: 48px;
+    justify-content: center;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2rem;
+}
+.placeCont{
+    position: relative;
+    width: 100%;
+    top: 2rem;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+}
+
+.placeName{
+    font-family:'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+ 
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .placetop{
+        position: relative;
+        top: 7rem;
+        height: 180px;
+        background: url('../../assets/img/Map.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: 5rem;
+        padding: 5px;
+        }
+        .title{
+            font-family:'Inter', sans-serif;
+            line-height: 38px;
+            font-size: 1.5rem;
+            justify-content: center;
+            font-weight: 700;
+            font-style: normal;
+            margin-top:1rem;
+        }
+        .placeCont{
+            position: relative;
+            width: 100%;
+            top: 2rem;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-evenly;
+            left: -2rem;
+        }
+        
+        .placeName{
+            font-family:'Inter', sans-serif;
+            font-weight: bold;
+            margin-top: 7px;
+         
+        }
+        
+
+}
