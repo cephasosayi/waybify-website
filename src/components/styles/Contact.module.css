@@ -12,6 +12,7 @@ align-items: center;
 display: flex;
 left: -3.5rem;
 }
+
 .title{
     font-family:'Inter', sans-serif;
     line-height: 48px;
@@ -41,15 +42,16 @@ a{
 @media screen and (max-width: 480px) {
     .contact{
         position: relative;
-        top: 15rem;
-        height: 150px;
+        top: 10rem;
+        height: 100px;
         width: 100%;
         border-top: 1px solid #00339280;
         align-items: center;
         display: flex;
         left: -3.5rem;
         }
-        .title{
+
+ .title{
             position: relative;
             font-family:'Inter', sans-serif;
             line-height: 48px;
@@ -57,25 +59,29 @@ a{
             align-items: center;
             font-weight: 700;
             font-style: normal;
-            width: 100%;
+            width: 100px;
             display: flex;
             flex-direction: row;
             text-align: center !important;
-            left: 8rem;
+            left: 9.2rem;
         
         }
         .row{
             position: relative;
-            width: 300px !important;
+            width: 100% !important;
             display: flex !important;
             flex-direction: row !important;
-            top: 3rem;
-           
+            top: 4rem;  
+            justify-content: space-between !important;         
 
         }
+      .iconCon{
+        width: 50px;
+      }
         .social{
-         height: 40px;
-         width: 40px;
+         height: 35px;
+         width: 35px;
+         margin: 25px;
         
         }
         a{
