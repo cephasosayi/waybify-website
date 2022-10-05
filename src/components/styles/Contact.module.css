@@ -8,9 +8,9 @@ top: 15rem;
 height: 150px;
 width: 100%;
 border-top: 1px solid #00339280;
-justify-content: center !important;
 align-items: center;
 display: flex;
+left: -3.5rem;
 }
 .title{
     font-family:'Inter', sans-serif;
@@ -26,6 +26,7 @@ display: flex;
     flex-direction: row;
     align-items: center;
     gap: 6rem;
+    justify-content: space-evenly !important;
 }
 .social{
  height: 40px;
@@ -35,4 +36,51 @@ display: flex;
 a{
     text-decoration: none !important;
     color: black !important;
+}
+
+@media screen and (max-width: 480px) {
+    .contact{
+        position: relative;
+        top: 15rem;
+        height: 150px;
+        width: 100%;
+        border-top: 1px solid #00339280;
+        align-items: center;
+        display: flex;
+        left: -3.5rem;
+        }
+        .title{
+            position: relative;
+            font-family:'Inter', sans-serif;
+            line-height: 48px;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            font-style: normal;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            text-align: center !important;
+            left: 8rem;
+        
+        }
+        .row{
+            position: relative;
+            width: 300px !important;
+            display: flex !important;
+            flex-direction: row !important;
+            top: 3rem;
+           
+
+        }
+        .social{
+         height: 40px;
+         width: 40px;
+        
+        }
+        a{
+            text-decoration: none !important;
+            color: black !important;
+        }
+
 }

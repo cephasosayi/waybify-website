@@ -9,15 +9,15 @@ import call from '../assets/icons/call.png'
 function Contact() {
   return (
     <Container className={`${styles.contact}`} id='contact'>
-      <h2 className={`${styles.title} mt-4`}>React us</h2 >
+      <h2 className={`${styles.title} mt-4 me-auto`}>React us</h2 >
       <div className={`${styles.row}`}>
-        <div>
+        <div >
         <a href='https://wa.me/2348068257152'>
             <img src={whatsapp} alt='whatsapp' className={`${styles.social}`} />
             </a>
         </div>
 
-        <div>
+        <div >
         <a href='#'>
           <img src={twitter} alt='twitter' className={`${styles.social}`} />
         </a>
@@ -30,7 +30,7 @@ function Contact() {
         </div>
 
         <div className='d-flex fw-bold'>
-          <div></div><a href='tel:08068257152'> CLICK TO CALL</a>
+          <div></div><a href='tel:08068257152'> CALL US</a>
         
 
         </div>

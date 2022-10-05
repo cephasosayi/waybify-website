@@ -29,7 +29,7 @@
 
    
 }
-.col1 >p{
+.Herodesc{
     margin-top: 6%;
     margin-bottom: 6%;
 
@@ -38,14 +38,15 @@
     font-style: normal;
     font-weight: 400;
     align-items: flex-start !important;
-    text-align: left !important;
+    text-align: start !important;
+    position: relative;
+    left: 0 !important;
     
 
 
 
 }
 .btn1{
-    
         font-family:'Inter', sans-serif;  
         border-radius: 5px !important;
         border: none !important;
@@ -101,24 +102,28 @@
     position: relative;
     width: 26px;
     height: 26px;
-    top: -3px
+    top: -3px;
+    object-fit: contain;
    }
 
    .whyus{
     margin-top: 60px;
    }
    .whyus >h3{
-    font-family:'Inter', sans-serif;
+    font-family:'Poppins', sans-serif;
     font-size: 14px;
     color: #64748b;
     line-height: 18px;
     font-weight: bold;
+    margin-top: 6px !important;
+    /* margin-left: -13px !important; */
    }
    .feature{
+    position: relative;
     display: flex;
     flex-direction: row;
-    gap: 20;
-    /* justify-content: flex-start !important; */
+    justify-content: space-evenly;
+    left: -3.3rem;
    }
 
    .ficon{
@@ -127,5 +132,176 @@
     height: 50px !important;
     justify-content: flex-start !important;
     left: 0 !important;
+    margin-right: -7px;
     
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 480px) {
+    
+.col1{
+    position: relative;
+    top: 20px
+}
+.text1{
+    font-family:'Roboto', sans-serif;
+    font-size: 2.2rem;
+    color: #000;
+    font-style: normal;
+    width: 100%;
+    font-weight: 700;
+    line-height: 3rem;
+   
+
+   
+}
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    width: 100%;
+    font-weight: 500;
+    line-height: 2rem;
+
+   
+}
+.Herodesc{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    align-items: flex-start !important;
+    text-align: start !important;
+    position: relative;
+    left: 0 !important;
+    
+
+
+
+}
+.btn1{
+        font-family:'Inter', sans-serif;  
+        border-radius: 5px !important;
+        border: none !important;
+        font-weight: 500 !important;
+        color: white !important;
+        font-size: 1rem !important;
+        padding: 11px 26px 11px 26px !important;
+        background: linear-gradient(180deg, #003392 26.71%, #003392 99.36%);
+        box-shadow: 0px 2px 2px 5px  rgba(82, 114, 255, 0.17)
+}
+
+.btn2{
+    width: auto;
+    font-family:'Inter', sans-serif !important;  
+    border-radius: 0px !important;
+    border: none !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.795) !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+.btn1:hover{
+    /* color: #fff !important;
+    background: #003392!important; */
+    border: none !important;
+
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px  #00339259
+ }
+ .btn2:hover{
+   color: gray !important;
+ }
+
+.imgCon{   
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+   }
+   .img{
+       object-fit: cover;
+       height: 320px;
+       width: 320px;
+    border-radius: 50% 50% 0% 50%;
+
+   }
+   .small{
+    font-family:'Inter', sans-serif;
+
+    font-size: 14px;
+    line-height: 2rem;
+    font-weight: 450;
+   }
+   .whatsapp{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    top: -3px;
+    object-fit: contain;
+   }
+
+   .whyus{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 1rem;
+   }
+   .whyus >h3{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 18px;
+    font-weight: bold;
+    margin-top: 6px !important;
+    /* margin-left: -13px !important; */
+   }
+   .whyustext{
+    top: 42px;
+    z-index: 100;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    display: flex;
+    position: relative;
+    left: -2.8rem;
+
+   }
+   .feature{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    left: 0rem;
+    top: 0rem;
+    width: 100%;
+   }
+ 
+   .ficon{
+    position: relative;
+    width: 35px !important;
+    height: 35px !important;
+    justify-content: flex-start !important;
+    left: 0 !important;
+    object-fit: contain;
+    /* margin-right: -7px; */
+    
+   }
    }

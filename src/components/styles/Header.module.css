@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* mobile  */
 
+
+/* tablet  */
+@media screen and (max-width: 768px) {
+}
+
+.logo{
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: contain;
+}
 .navbar{
     font-family:'Inter', sans-serif;
     height: 74px !important;
@@ -7,10 +18,10 @@
 .link{
     font-family:'Inter', sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 500 !important;
     font-style: normal;
     line-height: 1rem;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     color: #000 !important;
 
 }
@@ -42,5 +53,83 @@
     position: relative;
     width: 18px;
     height: 18px;
-    top: -3px
+    top: -3px;
    }
+
+
+   @media screen and (max-width: 480px) {
+    .navbar{
+        font-family:'Inter', sans-serif;
+        height: 53px !important;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 100;
+    }
+    .navCon{
+        position: relative;
+        top: -1rem;
+
+    }
+    .Colp{
+        background: white;
+        height: 220px;
+        z-index: 100;
+        padding: 5px;
+
+
+    }
+    .navToggle{
+        border: none !important;
+        box-shadow: none !important;
+        /* background: white; */
+    }
+    
+.logo{
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain;
+    margin-left: 50px !important;
+}
+.link{
+    font-family:'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500 !important;
+    font-style: normal;
+    line-height: 1rem;
+    margin-top: 1rem;
+    color: #000 !important;
+    padding: 10px;
+
+}
+.link:hover{
+    color: gray !important;
+}
+.link:focus{
+    color: #003392 !important;
+}
+.btn{
+    font-family:'Inter', sans-serif;  
+
+    border-radius: 5px !important;
+    border: none;
+    font-weight: 500 !important;
+    border: none !important;
+    color: white !important;
+    font-size: 14px;
+    background: linear-gradient(180deg, #003392 26.71%, #003392 99.36%);
+    box-shadow: 2px 7px 10px 5px  #00339280
+}
+.btn:hover{
+    background: #003392d2 !important;
+    border: none !important;
+
+}
+
+.whatsapp{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: -3px;
+   }
+}

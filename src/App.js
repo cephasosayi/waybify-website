@@ -1,4 +1,5 @@
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -11,7 +12,8 @@ function App() {
       <Hero/>
       <Partner />
       <HowItWorks />
-      <Contact/>
+      <Contact />
+      <Footer/>
       </div>
   );
 }

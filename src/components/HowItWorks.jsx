@@ -9,15 +9,12 @@ import whatsapp from '../assets/icons/whatsapp.png';
 
 
 
-
-
-
 function HowItWorks() {
   return (
       <Container className={`${styles.hiws} mb-5 h-100`} id='hiws'>
-          <div >
-              <h2>How Waybify Works</h2>
-              <p>Our mobile App is under development, however, this is how we operate for now</p>
+          <div className='ms-lg-auto me-lg-auto'>
+              <h2 className='ms-lg-auto me-lg-auto'>How Waybify Works</h2>
+              <p className={`${styles.hiwsdesc} ms-lg-auto me-lg-auto`}>Our mobile App is under development, however, this is how we operate for now</p>
           </div>
           <Row className='mt-5 ' styles={{ marginTop: '10%'}}>
               <Col  lg={6} md={6} sm={12} xs={12} className='mt-5'>
@@ -30,13 +27,15 @@ function HowItWorks() {
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
                       the get your message, order desciption, location and then come to your location for pickup
                       </p>
-                      <Button variant='success' className={`${styles.btn} `}><img src={whatsapp } className={`${styles.icon}`} alt='' /> Send us a Message Now</Button>
+                      <Button variant='success' className={`${styles.hiwbtn} `}>
+                          <img src={whatsapp} className={`${styles.htwicon}`} alt='' />
+                          Send us a Message Now</Button>
                       </div>
               </Col>
               {/* pickup  */}
               <Col lg={6} md={6} sm={12} xs={12} className='mt-5'>
                   <div className={`${styles.desc}`}>
-                  <h2 className={`${styles.title} `}>2. Our Agent Come Picks Item</h2>
+                  <h2 className={`${styles.title} `}>2. Our Agent Come Picks up Item</h2>
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
                       the get your message, order desciption, location and then come to your location for pickup
                   </p>
@@ -47,17 +46,20 @@ function HowItWorks() {
               </Col>
 
               {/* move  */}
-              <Col  lg={6} md={6} sm={12} xs={12} className='mt-5'>
-                  <img src={deliver} alt='' className={`${styles.phone} mt-5`} />
+              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mv} mt-5`}>
+                  <img src={''} alt='' className={`${styles.phone} mt-5`} />
               </Col>
-              <Col lg={6} md={6} sm={12} xs={12} className='mt-5'>
+              <Col lg={6} md={6} sm={12} xs={12} className={`${styles.mov} mt-5`}>
               <div className={`${styles.desc} mt-4`}>
                   
-                  <h2 className={`${styles.title}`}>3. Our Driver Moves items to Agent in Destination  </h2>
+                  <h2 className={`${styles.title}`}>3. Drivers Delivers to Agent in Destination  </h2>
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
                       the get your message, order desciption, location and then come to your location for pickup
                       </p>
                       </div>
+              </Col>
+              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mvv} mt-5`}>
+                  <img src={deliver} alt='' className={`${styles.phone} mt-5`} />
               </Col>
 
               {/* we deliver */}

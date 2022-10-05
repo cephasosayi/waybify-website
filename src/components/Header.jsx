@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './styles/Header.module.css'
 import { Container, Navbar, Nav, Button, Image } from 'react-bootstrap';
 import whatsapp from '../assets/icons/whatsapp.png'
+import logo from '../assets/icons/logo.png'
+
 
 // import Whatsapp from '@iconscout/react-unicons/icons/uil-whatsapp-alt'
 
@@ -10,11 +12,13 @@ import whatsapp from '../assets/icons/whatsapp.png'
 function Header() {
  
   return (
-    <Navbar bg="white" expand="lg" className={`${styles.navbar}`}>
-      <Container>
-        <Navbar.Brand href="#home">Waybify</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar bg="white" expand="lg" className={`${styles.navbar} `} >
+      <Container className={`${styles.navCon}`}>
+        <Navbar.Brand href="#home">
+          <img src={logo} alt='waybify logo' className={`${styles.logo}`} />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className={`${styles.navToggle}`} />
+        <Navbar.Collapse id="basic-navbar-nav" className={`${styles.Colp}`}>
           <Nav className=" ms-auto  justify-content-center justify-content-between ">
             <Nav.Link href="#hiws" className={`${styles.link}`} >How it works</Nav.Link>
             <Nav.Link href="#contact" className={`${styles.link}`}>Contack us</Nav.Link>
