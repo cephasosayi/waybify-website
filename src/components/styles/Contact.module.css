@@ -11,8 +11,9 @@ border-top: 1px solid #00339280;
 align-items: center;
 display: flex;
 left: -3.5rem;
-}
+display: '' !important;
 
+}
 .title{
     font-family:'Inter', sans-serif;
     line-height: 48px;
@@ -39,54 +40,10 @@ a{
     color: black !important;
 }
 
+
 @media screen and (max-width: 480px) {
+
     .contact{
-        position: relative;
-        top: 10rem;
-        height: 100px;
-        width: 100%;
-        border-top: 1px solid #00339280;
-        align-items: center;
-        display: flex;
-        left: -3.5rem;
-        }
-
- .title{
-            position: relative;
-            font-family:'Inter', sans-serif;
-            line-height: 48px;
-            justify-content: center;
-            align-items: center;
-            font-weight: 700;
-            font-style: normal;
-            width: 100px;
-            display: flex;
-            flex-direction: row;
-            text-align: center !important;
-            left: 9.2rem;
-        
-        }
-        .row{
-            position: relative;
-            width: 100% !important;
-            display: flex !important;
-            flex-direction: row !important;
-            top: 4rem;  
-            justify-content: space-between !important;         
-
-        }
-      .iconCon{
-        width: 50px;
-      }
-        .social{
-         height: 35px;
-         width: 35px;
-         margin: 25px;
-        
-        }
-        a{
-            text-decoration: none !important;
-            color: black !important;
-        }
-
-}
+        display: none !important;
+    }
+    }
