@@ -33,6 +33,8 @@
 }
 .btn{
     font-family:'Inter', sans-serif;  
+    position: relative;
+    width: 155px;
 
     border-radius: 5px !important;
     border: none;
@@ -50,10 +52,14 @@
 }
 
 .whatsapp{
-    position: relative;
+    position: absolute;
     width: 18px;
     height: 18px;
-    top: -3px;
+    left: .5rem;
+    top: .55rem;
+    right: 2rem;
+    margin-right: 13px;
+    
    }
 
 
@@ -109,7 +115,9 @@
     color: #003392 !important;
 }
 .btn{
-    font-family:'Inter', sans-serif;  
+    font-family:'Inter', sans-serif;
+    position: relative;
+    width: 155px;  
 
     border-radius: 5px !important;
     border: none;
@@ -127,9 +135,12 @@
 }
 
 .whatsapp{
-    position: relative;
+    position: absolute;
     width: 18px;
     height: 18px;
-    top: -3px;
+    left: .5rem;
+    top: .55rem;
+    right: 2rem;
+    margin-right: 13px;
    }
 }

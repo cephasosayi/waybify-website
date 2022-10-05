@@ -26,7 +26,8 @@ function Header() {
                   </Nav>
                   
                   <div className={`${styles.navbtn} ms-auto  `}>
-                      <Button variant='primary' href='https://wa.me/2348068257152' className={`${styles.btn} me-1 `}><Image src={whatsapp} alt='' className={`${styles.whatsapp}`} /> Whatsapp us</Button>
+            <Button variant='primary' href='https://wa.me/2348068257152' className={`${styles.btn} `}>
+              <img src={whatsapp} alt='' className={`${styles.whatsapp} me-1`} />  Whatsapp us</Button>
                       {/* <Button variant='danger' className={`${styles.btn}`}>Call us</Button> */}
                       
                 </div>

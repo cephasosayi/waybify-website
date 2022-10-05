@@ -23,9 +23,9 @@ function Hero() {
                   </p>
                   <small className={`${styles.small}`}>Need us, WhatsApp us NOW! </small>
                   <div className={`${styles.btngroup} d-flex gap-2`}>
-            <Button variant='success' href='https://wa.me/2348068257152' className={`${styles.btn1}`}>
-              {/* <img src={whatsapp} alt='' className={`${styles.whatsapp}`} /> */}
-              WhatsApp us</Button>
+            <Button variant='success' href='https://wa.me/2348068257152' className={`${styles.btn1} me-2`}>
+              <img src={whatsapp} alt='' className={`${styles.whatsapp} me-3`} />
+                  WhatsApp us</Button>
                       <Button variant='link' href='tel:08068257152' className={`${styles.btn2} mt-1`}>Call us <ArrowRight color='black' size={16}/> </Button>
 
           </div>
@@ -48,8 +48,8 @@ function Hero() {
             </div>
           </div>
           </Col>    
-              <Col lg={6} sm={12} md={6}>
-                  <div className={`${styles.imgCon} mt-5`}>
+              <Col lg={6} sm={12} md={6} className='ms-auto'>
+                  <div className={`${styles.imgCon} mt-5 ms-lg-5`}>
                       <Image src={deliveryman} alt='delivery man' className={`${styles.img}`} />
                       </div>
 

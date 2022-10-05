@@ -47,6 +47,9 @@
 
 }
 .btn1{
+    position: relative;
+    width: 155px;
+
         font-family:'Inter', sans-serif;  
         border-radius: 5px !important;
         border: none !important;
@@ -99,11 +102,13 @@
     font-weight: 400;
    }
    .whatsapp{
-    position: relative;
-    width: 26px;
-    height: 26px;
-    top: -3px;
-    object-fit: contain;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: .5rem;
+    top: .8rem;
+    right: 2rem;
+    margin-right: 18px !important;
    }
 
    .whyus{
@@ -194,6 +199,9 @@
 
 }
 .btn1{
+    width: 170px;
+    position: relative;
+
         font-family:'Inter', sans-serif;  
         border-radius: 5px !important;
         border: none !important;
@@ -252,11 +260,12 @@
     font-weight: 450;
    }
    .whatsapp{
-    position: relative;
+    position: absolute;
     width: 26px;
     height: 26px;
-    top: -3px;
+    top: 8.3px;
     object-fit: contain;
+    right: 16px !important;
    }
 
    .whyus{

@@ -17,10 +17,10 @@ function HowItWorks() {
               <p className={`${styles.hiwsdesc} ms-lg-auto me-lg-auto`}>Our mobile App is under development, however, this is how we operate for now</p>
           </div>
           <Row className='mt-5 ' styles={{ marginTop: '10%'}}>
-              <Col  lg={6} md={6} sm={12} xs={12} className='mt-5'>
+              <Col  lg={6} md={6} sm={12} xs={12} className='mt-lg-5'>
                   <img src={phone} alt='' className={`${styles.phone}`} />
               </Col>
-              <Col lg={6} md={6} sm={12} xs={12} className='mt-4'>
+              <Col lg={6} md={6} sm={12} xs={12} className='mt-lg-4'>
               <div className={`${styles.desc}`}>
                   
                   <h2 className={`${styles.title}`}>1. Talk to an Agent on WhatsApp</h2>
@@ -46,11 +46,11 @@ function HowItWorks() {
               </Col>
 
               {/* move  */}
-              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mv} mt-5`}>
+              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mv} mt-lg-5`}>
                   <img src={''} alt='' className={`${styles.phone} mt-5`} />
               </Col>
-              <Col lg={6} md={6} sm={12} xs={12} className={`${styles.mov} mt-5`}>
-              <div className={`${styles.desc} mt-4`}>
+              <Col lg={6} md={6} sm={12} xs={12} className={`${styles.mov} mt-lg-5`}>
+              <div className={`${styles.desc} mt-lg-4 mt-xs-2 mt-sm-2`}>
                   
                   <h2 className={`${styles.title}`}>3. Drivers Delivers to Agent in Destination  </h2>
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
@@ -58,14 +58,14 @@ function HowItWorks() {
                       </p>
                       </div>
               </Col>
-              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mvv} mt-5`}>
+              <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mvv} mt-lg-5`}>
                   <img src={deliver} alt='' className={`${styles.phone} mt-5`} />
               </Col>
 
               {/* we deliver */}
                {/* deliver  */}
-              <Col lg={6} md={6} sm={12} xs={12} className='mt-5'>
-              <div className={`${styles.desc} mt-4`}>
+              <Col lg={6} md={6} sm={12} xs={12} className='mt-lg-5'>
+              <div className={`${styles.desc} mt-lg-4`}>
                   
                   <h2 className={`${styles.title}`}>4. We Deliver to your Customer  </h2>
                   <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
@@ -73,7 +73,7 @@ function HowItWorks() {
                       </p>
                       </div>
               </Col>
-               <Col  lg={6} md={6} sm={12} xs={12} className='mt-5'>
+               <Col  lg={6} md={6} sm={12} xs={12} className='mt-lg-5'>
                   <img src={door} alt='' className={`${styles.phone} mt-5`} />
               </Col>
           </Row>
