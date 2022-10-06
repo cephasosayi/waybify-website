@@ -33,7 +33,8 @@ function Footer() {
                           <ListGroupItem className={`${styles.listItem}`}>
                               <a href='https://wa.me/2348068257152'>
                          WhatsApp </a></ListGroupItem>
-                      <ListGroup.Item className={`${styles.listItem}`}> Facebook</ListGroup.Item>
+                          <ListGroup.Item className={`${styles.listItem}`}>
+                          <a href='https://instagram.com/waybify' >Instagram</a></ListGroup.Item>
                       <ListGroup.Item className={`${styles.listItem}`}><a href='https://twitter.com/waybify' > Twitter </a></ListGroup.Item>
 
                   </ListGroup>
