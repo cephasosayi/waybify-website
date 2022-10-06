@@ -52,11 +52,16 @@
     position: relative;
     left: -12px;
     font-family:'Poppins', sans-serif;
+    text-decoration: none !important;
 
 
 }
 
+a{
+    text-decoration: none !important;
+    color: #fff !important;
 
+}
 
 
 

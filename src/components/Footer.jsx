@@ -20,9 +20,9 @@ function Footer() {
                   <Col lg={3} sm={12} xs={12} md={4}>
                   <h3 className={`${styles.title}`}>Quick Links</h3>
                   <ListGroup fluid className={`${styles.list}`}>
-                      <ListGroupItem className={`${styles.listItem}`} > How it works</ListGroupItem>
+                      <ListGroupItem className={`${styles.listItem}`} ><a href='#hiws' > How it works</a></ListGroupItem>
                       <ListGroup.Item className={`${styles.listItem}`}> FAQ</ListGroup.Item>
-                      <ListGroup.Item className={`${styles.listItem}`}> Blog</ListGroup.Item>
+                      <ListGroup.Item className={`${styles.listItem}`}> <a href='https://medium.com/@waybify' >Blog</a></ListGroup.Item>
 
                   </ListGroup>
                   </Col>
@@ -30,9 +30,11 @@ function Footer() {
                   <Col lg={3} sm={12} xs={12} md={4} className={`${styles.lastFcol}`} >
                   <h3  className={`${styles.title}`}>React us</h3>
                   <ListGroup className={`${styles.list}`} fluid>
-                      <ListGroupItem className={`${styles.listItem}`}> WhatsApp</ListGroupItem>
+                          <ListGroupItem className={`${styles.listItem}`}>
+                              <a href='https://wa.me/2348068257152'>
+                         WhatsApp </a></ListGroupItem>
                       <ListGroup.Item className={`${styles.listItem}`}> Facebook</ListGroup.Item>
-                      <ListGroup.Item className={`${styles.listItem}`}> Twitter</ListGroup.Item>
+                      <ListGroup.Item className={`${styles.listItem}`}><a href='https://twitter.com/waybify' > Twitter </a></ListGroup.Item>
 
                   </ListGroup>
                   </Col>
