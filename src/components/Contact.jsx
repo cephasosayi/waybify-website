@@ -29,8 +29,8 @@ function Contact() {
             </a>
         </div>
 
-        <div className='d-flex fw-bold'>
-          <div></div><a href='tel:08068257152'> CLICK TO CALL</a>
+        <div className='d-flex fw-bold text-black'>
+          <div></div><a href='tel:08068257152' className='text-black'> CLICK TO CALL </a>
         
 
         </div>

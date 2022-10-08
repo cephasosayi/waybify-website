@@ -24,7 +24,7 @@ function HowItWorks() {
               <div className={`${styles.desc}`}>
                   
                   <h2 className={`${styles.title}`}>1. Talk to an Agent on WhatsApp</h2>
-                  <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
+                  <p className={`${styles.body}`}>We have trusted agent accross our delivery routes, chat them up on whatsapp,
                       the get your message, order desciption, location and then come to your location for pickup
                       </p>
                       <Button variant='success' className={`${styles.hiwbtn} `}>
@@ -36,9 +36,10 @@ function HowItWorks() {
               <Col lg={6} md={6} sm={12} xs={12} className='mt-5'>
                   <div className={`${styles.desc}`}>
                   <h2 className={`${styles.title} `}>2. Our Agent Come Picks up Item</h2>
-                  <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
-                      the get your message, order desciption, location and then come to your location for pickup
+                      <p className={`${styles.body}`}>After your conversation with our agent, we make the next move, by coming to
+                          your item location to pick up the item and then prepare it for delivery. <br/><br/>
                   </p>
+                  <p className={`${styles.body2} `}> PS: Make sure you share your item location with our agent on WhatsApp. </p>
                   </div>
               </Col>
               <Col  lg={6} md={6} sm={12} xs={12} className='mt-5'>
@@ -53,9 +54,11 @@ function HowItWorks() {
               <div className={`${styles.desc} mt-lg-4 mt-xs-2 mt-sm-2`}>
                   
                   <h2 className={`${styles.title}`}>3. Drivers Delivers to Agent in Destination  </h2>
-                  <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
-                      the get your message, order desciption, location and then come to your location for pickup
+                      <p className={`${styles.body}`}>We package your item and then pass it on to our drivers for delivery.
+                          <br />
                       </p>
+                      <p className={`${styles.body2} `}>  You will received status update as we journey
+                          to your customers destination. </p>
                       </div>
               </Col>
               <Col  lg={6} md={6} sm={12} xs={12} className={`${styles.mvv} mt-lg-5`}>
@@ -68,9 +71,11 @@ function HowItWorks() {
               <div className={`${styles.desc} mt-lg-4`}>
                   
                   <h2 className={`${styles.title}`}>4. We Deliver to your Customer  </h2>
-                  <p className={`${styles.body}`}>We have trusted agent accross some state, chat them up on whatsapp,
-                      the get your message, order desciption, location and then come to your location for pickup
+                      <p className={`${styles.body}`}>We delivery to your customer in less than 48 hours. 
+                          {/* <br /> */}
+                          <br />
                       </p>
+                      <p className={`${styles.body2} `}> Note: All delivery to customers are made in a  place.</p>
                       </div>
               </Col>
                <Col  lg={6} md={6} sm={12} xs={12} className='mt-lg-5'>

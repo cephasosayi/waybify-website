@@ -42,6 +42,15 @@ border-radius: 10%
     text-align: start !important; 
     /* color: rgba(0, 51, 146, 0.502); */
 }
+.body2{
+    justify-content: flex-start;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400; 
+    text-align: start !important; 
+    /* color: rgba(0, 51, 146, 0.502); */
+    color: #003392;
+}
 .htwicon{
     position: absolute;
     width: 18px;
@@ -94,16 +103,17 @@ h2{
         position: relative;
         top: 6rem;
         height: auto !important;
-        width: 100%;
+        width: 90% !important;
         bottom: 2rem;
+    
     }
     .phone{
         position: relative;
         height: 300px;
-        width: 300px;
+        width: 100%;
         justify-content: center;
         align-items: center;
-        left: 1rem;
+        left: 0;
         object-fit: cover;
         border: .4px solid  #00339280;
         border-radius: 10%
@@ -114,7 +124,7 @@ h2{
         top: 2rem;
         bottom: 0;
         justify-content: center;
-        width: 100%;
+        width: 100% !important;
     
     }
     
@@ -133,11 +143,25 @@ h2{
         font-family:'Roboto', sans-serif;
         font-size: 1.1rem;
         font-weight: 400; 
-        width: 100%;
+        width: 100% !important;
         line-height: 1.4;
         text-align: start !important; 
         top: 5px;
         left: 0;
+        /* color: rgba(0, 51, 146, 0.502); */
+    }
+    .body2{
+        justify-content: start !important;
+        font-family:'Roboto', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 400; 
+        width: 100% !important;
+        line-height: 1.4;
+        text-align: start !important; 
+        top: 5px;
+        left: 0;
+        color: #003392 !important;
+
         /* color: rgba(0, 51, 146, 0.502); */
     }
    
