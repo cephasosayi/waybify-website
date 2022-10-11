@@ -24,7 +24,7 @@ function HowItWorks() {
               <div className={`${styles.desc}`}>
                   
                   <h2 className={`${styles.title}`}>1. Talk to an Agent on WhatsApp</h2>
-                      <p className={`${styles.body}`}>We have trusted agents accross our delivery routes, chat them up on WhatsApp,
+                      <p className={`${styles.body}`}>We have trusted agents across our delivery routes, chat them up on WhatsApp,
                           they get your message, order description, and location and then come to your location for pickup
                       </p>
                       <Button variant='success' className={`${styles.hiwbtn} `}>
@@ -35,7 +35,7 @@ function HowItWorks() {
               {/* pickup  */}
               <Col lg={6} md={6} sm={12} xs={12} className='mt-5'>
                   <div className={`${styles.desc}`}>
-                  <h2 className={`${styles.title} `}>2. Our Agent Come Picks up Item</h2>
+                  <h2 className={`${styles.title} `}>2. Our Agent Come Picks up the Item</h2>
                       <p className={`${styles.body}`}>After your conversation with our agent, we make the next move,
                           by coming to your item location to pick up the item and then prepare it for delivery. <br /><br />
                   </p>
@@ -53,7 +53,7 @@ function HowItWorks() {
               <Col lg={6} md={6} sm={12} xs={12} className={`${styles.mov} mt-lg-5`}>
               <div className={`${styles.desc} mt-lg-4 mt-xs-2 mt-sm-2`}>
                   
-                  <h2 className={`${styles.title}`}>3. Drivers Delivers to Agent in Destination  </h2>
+                  <h2 className={`${styles.title}`}>3. Drivers Delivers to Agent at the Destination  </h2>
                       <p className={`${styles.body}`}>We package your item and then pass it on to our drivers for delivery.
                           <br />
                       </p>
