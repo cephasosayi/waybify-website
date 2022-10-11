@@ -1,3 +1,4 @@
+import {MapPin} from 'react-feather'
 import React from 'react'
 import { Col, Container, ListGroup, ListGroupItem, Row } from 'react-bootstrap'
 import styles from './styles/Footer.module.css'
@@ -14,6 +15,8 @@ function Footer() {
                           <p className={`${styles.desc}`}>We are a modern logistics company, we let you
                               focus on growing your business while we handle the packaging 
                         and delivery of your products to your customer outside your reach.
+                          </p>
+                          <p className={`${styles.desc}`}><MapPin color='#fff ' size={23}/> Karu Site, Opposite EFCC Academy.
                           </p>
                       </div>
                   </Col>
