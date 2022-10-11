@@ -16,7 +16,7 @@ function Hero() {
           <Row className={`mt-3`}>
           <Col lg={6} sm={12} md={6} className={`${styles.col1} mt-1`}>
                   <h1 className={`${styles.text1}`}>Let's Help you meet your Business Goals!</h1>                  
-                  <h1 className={`${styles.text2}`}>We fulfil all delivery in less than 48hours</h1>
+                  <h1 className={`${styles.text2}`}>We fulfill all delivery in less than 48hours</h1>
 
                   <p className={`${styles.Herodesc} me-auto`} >Waybify is an on-demand delivery service, we connect businesses with drivers,
                    helping you meet your business goals.

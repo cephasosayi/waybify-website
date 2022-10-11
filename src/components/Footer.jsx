@@ -11,7 +11,7 @@ function Footer() {
                       <div className='me-auto'>
                       <p className={`${styles.copy} me-auto`}>Copyright 2022</p>
                           <h3 className={`${styles.Ftitle} me-auto`}>About</h3>
-                          <p className={`${styles.desc}`}>We are a modern logistic company, we let you
+                          <p className={`${styles.desc}`}>We are a modern logistics company, we let you
                               focus on growing your business while we handle the packaging 
                         and delivery of your products to your customer outside your reach.
                           </p>
