@@ -16,7 +16,7 @@ function Footer() {
                               focus on growing your business while we handle the packaging 
                         and delivery of your products to your customer outside your reach.
                           </p>
-                          <p className={`${styles.desc}`}><MapPin color='#fff ' size={23}/> Karu Site, Opposite EFCC Academy.
+                          <p className={`${styles.desc}`}><MapPin color='#fff ' size={20}/> Karu Site, Opposite EFCC Academy.
                           </p>
                       </div>
                   </Col>
