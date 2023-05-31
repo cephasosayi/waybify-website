@@ -47,7 +47,7 @@
     width: 275px;
     height: 50px;
 
-    background: #003392;
+    background: #003392 !important;
     border-radius: 10px;
     border-color: #003392 !important;
     cursor: pointer;

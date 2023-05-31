@@ -2,71 +2,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .footer{
-    position: relative;
-    top: 15rem;
-    height: 250px;
+    height: 200px !important;
+    width: 100% !important;
+    color: #888888;
+    display: flex !important;
+    align-items: center !important;
+}
+.ColContainer{
+    width: 100% !important;
+    flex-direction: row !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.socialContainer{
     width: 100%;
-    padding-top: 2.7rem;
-    background: #003392;
-    border-radius: 0;
-    color: white;
-}
-.copy{
-    position: relative;
-    justify-content: flex-start;
-    text-align: start !important;
-    color: rgb(227, 224, 224);
-    font-family:'Inter', sans-serif;
-    font-weight: 400;
-    height: 20px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: end !important;
+    align-items: center !important;
+    gap: 16px;
 }
 
-.Ftitle{
-    justify-content: flex-start;
-    text-align: start !important;
-    font-family:'Inter', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 2rem;
+.linksContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 16px;
+    text-align: center !important;
+    /* margin-top: 25px */
+}
+.logo{
+    width: 119px;
+    height: 64.91px;
+}
+.iconBox{
+    width: 38.72px;
+    height: 38.51px;
+    background: #222222;
+    border-radius: 100%; 
+
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+}
+
+.links{
+    height: 24px;
+
+    font-family: 'Inter';
     font-style: normal;
-    margin-left: 2.5rem !important;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
 }
-
-.desc{
-    justify-content: flex-start;
-    text-align: start !important;
-    font-family:'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    font-style: normal;
-    width: 80%;
-}
-
-.listItem{
-    background: #003392 !important;
-    color: #fff !important;
-    border: none !important;
-    justify-content: flex-start;
-    position: relative;
-    left: -12px;
-    font-family:'Poppins', sans-serif;
-    text-decoration: none !important;
-
-
-}
-
-a{
-    text-decoration: none !important;
-    color: #fff !important;
-
-}
-
-
-
-
-
 @media screen and (max-width: 480px) {
 
     .footer{
