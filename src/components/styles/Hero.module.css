@@ -106,14 +106,14 @@
     height: 150px;
     background: #000000;
     margin-top: 170px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
  }
 .firstSec{
     display: flex;
     flex-direction: row !important;
     position: relative;
-    gap: 160px;
+    /* gap: 100px !important; */
     width: 480px !important;
     justify-content:center !important;
     align-items: center !important;
@@ -134,12 +134,16 @@
     flex-direction: row !important;
     position: relative;
     gap: 50px;
-    left: 45px;
+    /* left: 45px; */
     width: 480px;
     justify-content:center !important;
     align-items: center !important;
     border-right: 1px solid grey !important;
 
+}
+.Pimg{
+    height: 30px;
+    /* width: 32px; */
 }
 .secTitle{
     margin-top: 13px;
@@ -149,7 +153,7 @@
     font-size: 14px !important;
     line-height: 19px !important;
     color: gray;
-    width: 100% !important;
+    width: 40% !important;
 }
 .secTitle2{
     margin-top: 13px;
@@ -160,7 +164,6 @@
     line-height: 19px !important;
     color: gray;
     width: 100px !important;
-    margin-left: -70px;
 }
 .secDesc{
     margin-top: 13px;

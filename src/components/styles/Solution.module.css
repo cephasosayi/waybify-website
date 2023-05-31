@@ -1,9 +1,11 @@
 .topContainer{
     /* background-color: #0E0E0F !important; */
-    height: 700px ;
-    width: 100% !important;
-    justify-content: center !important;
-    align-items: center !important;
+    height: 700px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .container{
@@ -23,7 +25,7 @@
     font-size: 40px;
     line-height: 55px;
     text-align: left !important;
-    margin-left: 38px;
+    /* margin-left: 38px; */
 }
 
 .desc{
@@ -36,12 +38,15 @@
     text-align: left !important;
 
 }
+.col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .img{
     width: 613px;
     height: 409px;
-    /* left: 720px;
-    top: 145px; */
 
 }
 .btn{
@@ -55,7 +60,7 @@
 
     background: #003392 !important;
     border-radius: 10px;
-    margin-left: 38px;
+    /* margin-left: 38px; */
     border: none !important;
 
 }

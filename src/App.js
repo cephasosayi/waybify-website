@@ -1,3 +1,4 @@
+import OurApp from "./components/App";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -14,8 +15,7 @@ function App() {
       <Hero/>
       <Solution/>
       <Partner />
-      <HowItWorks />
-      <Locations/>
+      <OurApp/>
       <Contact />
       <Footer/>
       </div>

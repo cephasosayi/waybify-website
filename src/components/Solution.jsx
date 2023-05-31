@@ -25,7 +25,7 @@ const Solution = () => {
             </p>
             <Button variant='primary' className={`${styles.btn}`}>Let's get started</Button>
         </Col>
-        <Col lg={6} md={6} sm={12} xs={12}>
+        <Col lg={6} md={6} sm={12} xs={12} className={`${styles.col2}`}>
             <Image src={photo} className={`${styles.img} ms-lg-5 img-fluid`} />
         </Col>
       </Row>

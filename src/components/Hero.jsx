@@ -35,7 +35,7 @@ function Hero() {
       <div className={`${styles.partners}`}>
         <div className={`${styles.firstSec}`}>
           <p className={`${styles.secTitle}`}>Our Partner</p>
-          <img src={partner} />
+          <img src={partner} className={`${styles.Pimg}`}/>
         </div>
         <div className={`${styles.secondSec}`}>
             <div>  <p className={`${styles.secTitle2}`}>Service Area</p></div>
