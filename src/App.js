@@ -5,12 +5,14 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Locations from "./components/Locations";
 import Partner from "./components/Partner";
+import Solution from "./components/Solution";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero/>
+      <Solution/>
       <Partner />
       <HowItWorks />
       <Locations/>

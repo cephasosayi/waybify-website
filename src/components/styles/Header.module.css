@@ -13,16 +13,19 @@
 }
 .navbar{
     font-family:'Inter', sans-serif;
-    height: 74px !important;
+    height: 94px !important;
+    background-color: #121212;
+    color: #fff;
 }
+
 .link{
-    font-family:'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 500 !important;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
-    line-height: 1rem;
-    margin-left: 1.2rem;
-    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;    
+    color: #FFFFFF;    
 
 }
 .link:hover{
@@ -32,35 +35,36 @@
     color: #003392 !important;
 }
 .btn{
-    font-family:'Inter', sans-serif;  
+    font-family:'Inter';  
     position: relative;
-    width: 155px;
+    display: flex;
+    flex-direction: row;
+    width: 184px;
+    height: 51px;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 11px !important;
+    line-height: 19px;
+    background: #003392d2 !important;
 
     border-radius: 5px !important;
-    border: none;
     font-weight: 500 !important;
     border: none !important;
     color: white !important;
-    font-size: 14px;
-    background: linear-gradient(180deg, #003392 26.71%, #003392 99.36%);
-    box-shadow: 2px 7px 10px 5px  #00339280
+    font-size: 1rem;
+  
 }
 .btn:hover{
-    background: #003392d2 !important;
+    background: #fff !important;
     border: none !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+    border: none !important;
+    font-family:'Inter';  
+
+    font-size: 1rem;
 
 }
-
-.whatsapp{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: .5rem;
-    top: .55rem;
-    right: 2rem;
-    margin-right: 13px;
-    
-   }
 
 
    @media screen and (max-width: 480px) {
@@ -116,18 +120,9 @@
 }
 .btn{
     font-family:'Inter', sans-serif;
-    position: relative;
-    width: 155px;  
-
-    border-radius: 5px !important;
-    border: none;
-    font-weight: 500 !important;
-    border: none !important;
-    color: white !important;
-    font-size: 14px;
-    background: linear-gradient(180deg, #003392 26.71%, #003392 99.36%);
-    box-shadow: 2px 7px 10px 5px  #00339280
+    background: #003392;
 }
+
 .btn:hover{
     background: #003392d2 !important;
     border: none !important;

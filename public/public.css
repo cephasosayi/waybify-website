@@ -4,9 +4,10 @@
 body, html{
        margin: 0;
        padding: 0;
-       background:#F4F3EE !important;
+       background-color: #121212 !important;
        transition: smooth;
        transition-duration: 4s;
+       width: 100%;
       
       }
 @media screen and (max-width: 480px) {
@@ -14,7 +15,7 @@ body, html{
  body, html{
         margin: 0;
         padding: 0;
-        background:#F4F3EE !important;
+        background-color: #121212;
         transition: smooth;
         transition-duration: 4s;
         overflow-x: hidden;
