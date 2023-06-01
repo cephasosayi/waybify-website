@@ -14,7 +14,7 @@ function Contact() {
             </Col>
             <Col xs={12} sm={12} md={5} lg={5} className={`${styles.btnContainer}`}>
               <Button variant='primary' 
-              className={`${styles.btn} `}>
+              className={`${styles.btn} d-flex ms-auto`}>
                 Join the Team!
                 </Button>
             </Col>
