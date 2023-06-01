@@ -15,7 +15,7 @@
     font-family:'Inter', sans-serif;
     height: 94px !important;
     background-color: #121212;
-    color: #fff;
+    color: #fff !important;
 }
 
 .link{
@@ -25,7 +25,7 @@
     font-size: 1rem;
     line-height: 19px;
     text-align: center;    
-    color: #FFFFFF;    
+    color: #FFFFFF !important;    
 
 }
 .link:hover{
