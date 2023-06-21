@@ -6,7 +6,7 @@ import store from '../assets/New/mobile.png'
 const OurApp = () => {
   return (
     <Container fluid className={`${styles.container}`}>
-     <Container>
+     <Container className={`${styles.overley}`}>
             <Col xs={12} sm={12} md={6} lg={6} className={`${styles.colContainer}`}>
               <h2 className={`${styles.title}`}>Our app has more to offer</h2>
               <p className={`${styles.desc}`}>We made our app with our customers in mind.</p>

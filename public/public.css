@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+@media screen and (max-width: 480px) {
+
+       body, html{
+              width: 100vw !important;
+              margin: 0 !important;
+              padding: 0 !important;
+              background-color: #121212;
+              transition: smooth;
+              transition-duration: 4s;
+              overflow-x: hidden !important;
+              font-family: 'Inter', sans-serif !important;
+
+              
+
+              
+              }
+
+}
 
 body, html{
        margin: 0;
@@ -8,18 +26,8 @@ body, html{
        transition: smooth;
        transition-duration: 4s;
        width: 100%;
+       font-family: 'Inter', sans-serif !important;
+
       
       }
-@media screen and (max-width: 480px) {
-
- body, html{
-        margin: 0;
-        padding: 0;
-        background-color: #121212;
-        transition: smooth;
-        transition-duration: 4s;
-        overflow-x: hidden;
-       
-       }
-
-}
+ 

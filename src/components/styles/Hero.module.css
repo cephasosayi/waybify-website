@@ -1,11 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* mobile  */
+    @media screen and (max-width: 480px) {
+.hero{
+    background-color: #121212;
+    height: 500px !important;
+    width: 100vw !important;
+}
+.box{
+display: flex;
+width: 100%;
+position: relative;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.title{
+    width: 310px !important;
+    height: 170px !important;
+
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 52px !important;
+    color: #FFFFFF !important;
+    mix-blend-mode: normal !important;
+    margin-bottom: 0px;
+    }
+.tagline{
+    width: 310px !important;
+    height: 45px !important;    
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    justify-content: center;
+    color: #5c5f66 !important;
+    margin-top: 25px !important;
+}
+.desc{
+    width: 310px !important;
+    height: 20px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    mix-blend-mode: normal;
+    top: 43px !important;
+}
+.partners{
+   display: flex !important;
+   flex-direction: column !important;
+   position: relative !important;
+   left: 0 !important;
+   bottom: 0 !important;
+   height: 100px !important;
+   margin-bottom: 150px !important;
+   width: 100% !important;
+   margin-top: -25px !important;
+   border-radius: 0px;
+   background: none !important;
+ }
+.firstSec{
+    height: 60px ;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    gap: -20px !important;
+    width: 150px !important;
+    justify-content:center !important;
+    align-items: center !important;
+    border-bottom: 1px solid #2f2f2f  !important;
+    border-right: none !important;
+    margin-left: -60px;
+
+}
+.secondSec{
+    height: 60px ;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    gap: 10px !important;
+    width: 100% !important;
+    justify-content:center !important;
+    align-items: center !important;
+    border-bottom: none !important;
+    border-right: none !important;
+
+}
+ .thirdSec{
+    display: none !important;
+    border: none !important;
+    border-right: none !important;
+
+}
+
+.Pimg{
+    height: 30px;
+    width: 95px;
+    object-fit: contain !important;
+    margin-left: -70px !important;
+    gap: 0px !important;
+    border-right: none !important;
+
+}
+.secTitle{
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: gray;
+    width: 80px !important;
+    border-right: none !important;
+
+}
+.secTitle2{
+    margin-top: 13px;
+
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: gray;
+    width: 150px !important;
+
+    
+}
+.secDesc{
+    margin-top: 13px;
+    width: 150px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    color: gray !important;
+    margin-left: 0px !important;
+    border-right: none !important;
+
+
+}
+}
 
 
 .hero{
     background-color: #121212;
     height: 700px !important;
     width: 100% !important;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .heroInfoContainer{    
     display: flex;
@@ -57,6 +211,14 @@
     mix-blend-mode: normal;
     top: 53px;
 }
+.btngroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .btn{
     display: flex;
     flex-direction: row;
@@ -104,8 +266,8 @@
     right: 0;
     width: inherit !important;
     height: 150px;
-    background: #000000;
-    margin-top: 170px;
+    background: #050505 !important;
+    margin-top: -60px;
     /* justify-content: space-between; */
     
  }

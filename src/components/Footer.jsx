@@ -36,17 +36,16 @@ function Footer() {
                     </div>
                   </Col>
                   <Container  className='border border-1 border-dark mb-2 w-100 border-bottom '><div></div> </Container>
-                  <Col lg={3} sm={12} xs={12} md={4} className={`${styles.ColContainer}`}>
-                  <div className={`${styles.linksContainer}`} > 
-                  <p className={`${styles.links}`}>Terms of service</p>
-                  <p className={`${styles.links}`}>FAQs</p>
-                       <p className={`${styles.links}`}>Support</p>
-                  <p className={`${styles.links}`}>Careers</p>
-                    </div>
-                    <div className={`${styles.socialContainer}`}>
-                       <p className={`${styles.links}`}> Copyright © 2023 Waybify. All rights reserved.</p>
-
-                    </div>
+                  <Col sm={12} xs={12} md={4} lg={3} className={`${styles.ColContainer}`}>
+                    <div className={`${styles.linksContainer}`} > 
+                        <p className={`${styles.links}`}>Terms of service</p>
+                        <p className={`${styles.links}`}>FAQs</p>
+                        <p className={`${styles.links}`}>Support</p>
+                        <p className={`${styles.links}`}>Careers</p>
+                      </div> <br/>
+                      <div className={`${styles.copyright}`}>
+                        <p className={`${styles.links}`}> Copyright © 2023 Waybify. All rights reserved.</p>
+                      </div>
                   
                   </Col>
              </Row>

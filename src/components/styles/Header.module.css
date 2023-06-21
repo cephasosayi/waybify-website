@@ -1,11 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 /* mobile  */
+@media screen and (max-width: 480px)  {
+    .logo{
+      width: 45px !important;
+      height: 45px !important;
+      object-fit: contain !important;
+  }
+  .navbar{
+      width: 100% !important;
+      height: 54px !important;
+      background-color: #2f2f2f !important;
+      color: #fff !important;
+  }
+  .navCon{
+      padding-top: -20px !important;
+  }
+  
+  .link{
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600 !important;
+      font-size: 1rem;
+      line-height: 19px;
+      text-align: center;    
+      color: #FFFFFF !important;    
+  
+  }
+  .link:hover{
+      color: gray !important;
+  }
+  .link:focus{
+      color: #003392 !important;
+  }
+  .btn{
+      font-family:'Inter', sans-serif !important;  
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: 184px;
+      height: 51px;
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 11px !important;
+      line-height: 19px;
+      background: #003392d2 !important;
+  
+      border-radius: 5px !important;
+      font-weight: 500 !important;
+      border: none !important;
+      color: white !important;
+      font-size: 1rem;
+    
+  }
+  .btn:hover{
+      background: #fff !important;
+      border: none !important;
+      color: #000 !important;
+      font-weight: 500 !important;
+      border: none !important;
+      font-family:'Inter';  
+  
+      font-size: 1rem;
+  
+  }
+  
+  .navToggle{
+      border: 0px solid !important;
+  }
+  
+  
+     
+  }
+  
+  /* tablet  */
+  @media screen and (max-width: 768px) {
+  }
 
 
-/* tablet  */
-@media screen and (max-width: 768px) {
-}
-
+/* desktop small  */
 .logo{
     width: 120px !important;
     height: 120px !important;
@@ -14,7 +86,7 @@
 .navbar{
     font-family:'Inter', sans-serif;
     height: 94px !important;
-    background-color: #121212;
+    background-color: #121212 !important;
     color: #fff !important;
 }
 
@@ -67,75 +139,3 @@
 }
 
 
-   @media screen and (max-width: 480px) {
-    .navbar{
-        font-family:'Inter', sans-serif;
-        height: 53px !important;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        z-index: 100;
-    }
-    .navCon{
-        position: relative;
-        top: -1rem;
-
-    }
-    .Colp{
-        background: white;
-        height: 220px;
-        z-index: 100;
-        padding: 5px;
-
-
-    }
-    .navToggle{
-        border: none !important;
-        box-shadow: none !important;
-        /* background: white; */
-    }
-    
-.logo{
-    width: 70px !important;
-    height: 70px !important;
-    object-fit: contain;
-    margin-left: 50px !important;
-}
-.link{
-    font-family:'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 500 !important;
-    font-style: normal;
-    line-height: 1rem;
-    margin-top: 1rem;
-    color: #000 !important;
-    padding: 10px;
-
-}
-.link:hover{
-    color: gray !important;
-}
-.link:focus{
-    color: #003392 !important;
-}
-.btn{
-    font-family:'Inter', sans-serif;
-    background: #003392;
-}
-
-.btn:hover{
-    background: #003392d2 !important;
-    border: none !important;
-
-}
-
-.whatsapp{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: .5rem;
-    top: .55rem;
-    right: 2rem;
-    margin-right: 13px;
-   }
-}

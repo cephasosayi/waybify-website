@@ -1,24 +1,31 @@
 import React from 'react'
 import styles from './styles/Header.module.css'
-import { Container, Navbar, Nav, Button, Image } from 'react-bootstrap';
-import whatsapp from '../assets/icons/whatsapp.png'
+import { Container, Navbar, Nav, Button } from 'react-bootstrap';
 import logo from '../assets/New/logo.png'
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-
-// import Whatsapp from '@iconscout/react-unicons/icons/uil-whatsapp-alt'
-
-// import call from '@iconscout/react-unicons/icons/uil-phone'
 
 function Header() {
  
-  return (
-    <Navbar expand="lg" className={`${styles.navbar} `} >
-      <Container className={`${styles.navCon}`}>
-        <Navbar.Brand href="#home">
+  return ( <>
+    {[false,].map((expand) => (
+    <Navbar  key={'lg'} expand='lg' className={`${styles.navbar} p-0 mb-0`} variant='dark'>
+      <Container className={`${styles.navCon} mt-0`}>
+        <Navbar.Brand href="https://waybify.com">
           <img src={logo} alt='waybify logo' className={`${styles.logo}`} />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className={`${styles.navToggle}`} />
-        <Navbar.Collapse id="basic-navbar-nav" className={`${styles.Colp}`}>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}className={`${styles.navToggle}`} />
+        <Navbar.Offcanvas 
+        id={`offcanvasNavbar-expand-${expand}`}
+        aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+        placement="end"
+        className={`${styles.Colp}`}>
+         <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Offcanvas
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
           <Nav className=" ms-auto  justify-content-center justify-content-between gap-4" >
             <Nav.Link href="#hiws" className={`${styles.link}`} >About</Nav.Link>
             <Nav.Link href="#contact" className={`${styles.link}`}>FAQs</Nav.Link>
@@ -32,9 +39,14 @@ function Header() {
                   </Button>              
                       
             </div>
-        </Navbar.Collapse>
+            </Offcanvas.Body>
+        </Navbar.Offcanvas>
       </Container>
     </Navbar>
+    ))}
+
+    
+    </>
   );
 }
 

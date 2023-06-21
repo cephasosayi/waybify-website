@@ -8,7 +8,7 @@ const Solution = () => {
     <Container fluid className={`${styles.topContainer}`}>
     <Container className={`${styles.container}`}>
       <Row className='d-flex justify-content-center' >
-        <Col lg={6} md={6} sm={12} xs={12} >
+        <Col sm={12} xs={12} lg={6} md={6}  className={`${styles.col1}`}>
             <h2 className={`${styles.title}`}>Shipping Solutions for Social Vendors</h2>
             <p className={`${styles.desc}`}>
             We understand that shipping can be a hassle, with issues like missing packages, driving going beyond the delivery park, lack of tracking, and unreliable drivers all too common.
@@ -25,7 +25,7 @@ const Solution = () => {
             </p>
             <Button variant='primary' className={`${styles.btn}`}>Let's get started</Button>
         </Col>
-        <Col lg={6} md={6} sm={12} xs={12} className={`${styles.col2}`}>
+        <Col sm={12} xs={12} lg={6} md={6}  className={`${styles.col2}`}>
             <Image src={photo} className={`${styles.img} ms-lg-5 img-fluid`} />
         </Col>
       </Row>

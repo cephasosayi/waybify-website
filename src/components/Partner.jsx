@@ -14,8 +14,8 @@ function Partner() {
       <Container fluid className={`${styles.container}`}>
           <Container>
             <div className={`${styles.textContainer}`}>
-                <h2 className={`${styles.title}`}>Shipping Process</h2>
-                <p className={`${styles.desc}`}>Welcome to Waybify! We're thrilled to have you on board as one of our valued vendors. Our shipping process is designed to be as simple and 
+                <h2 className={`${styles.title} me-auto ms-auto`}>Shipping Process</h2>
+                <p className={`${styles.desc} me-auto ms-auto`}>Welcome to Waybify! We're thrilled to have you on board as one of our valued vendors. Our shipping process is designed to be as simple and 
                 hassle-free as possible, so you can focus on what you do best – running your business.</p>
             </div>
               <Row sm={1} xs={1} md={3} lg={3} className={`${styles.partRow}`}>
@@ -33,7 +33,7 @@ Our team arrives        to collect your securely packaged packages</Card.Text>
                     <Card className={`${styles.card}`}>
                         <Card.Img src={load} className={`${styles.cardImg} img-fluid`} 
                               alt='Schedule a pickup' />
-                        <Card.Title className={`${styles.cardTitle} `}>We deliver your packages to your customers within 48 hours</Card.Title>
+                        <Card.Title className={`${styles.cardTitle} `}>We deliver within 48 hours</Card.Title>
                         <Card.Text className={`${styles.cardText} `}>We have a reliable team that will handle all your deliveries, in under 48 hours.</Card.Text>
                        </Card>
                   </Col>    
