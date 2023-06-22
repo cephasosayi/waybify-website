@@ -1,6 +1,6 @@
 import {MapPin} from 'react-feather'
 import React from 'react'
-import { Col, Container, ListGroup, ListGroupItem, Row } from 'react-bootstrap'
+import { Col, Container, ListGroup, ListGroupItem, Nav, Row } from 'react-bootstrap'
 import styles from './styles/Footer.module.css'
 import logo from '../assets/New/logo.png';
 import ig from '../assets/New/ig.png';
@@ -17,33 +17,38 @@ function Footer() {
                         <img src={logo} className={`${styles.logo}`}/>
                     </div>
                     <div className={`${styles.socialContainer}`}>
-                        <div className={`${styles.iconBox}`}>
-                            <img src={ig} className={`${styles.icon}`}  alt='Instagram'/>
-                        </div>
+                        <Nav.Link className={`${styles.iconBox}`}>
+                            {/* <img src={ig} className={`${styles.icon}`}  alt='Instagram'/> */}
+                              <i color='gray' class="bi bi-instagram "></i> 
+                        </Nav.Link>
 
-                        <div className={`${styles.iconBox}`}>
-                            <img src={fb} className={`${styles.icon}`} alt='facebook' />
-                        </div>
+                        <Nav.Link className={`${styles.iconBox}`}>
+                            {/* <img src={fb} className={`${styles.icon}`} alt='facebook' /> */}
+                            <i color='gray' class="bi bi-instagram "></i> 
 
-                        <div className={`${styles.iconBox}`}>
-                            <img src={twitter} className={`${styles.icon}`} alt='twitter' />
-                        </div>
+                        </Nav.Link>
 
-                        <div className={`${styles.iconBox}`}>
-                            <img src={linkedin} className={`${styles.icon}`} alt='linkedin' />
-                        </div>
+                        <Nav.Link className={`${styles.iconBox}`}>
+                        <i color='gray' class="bi bi-twitter"></i> 
+                            {/* <img src={twitter} className={`${styles.icon}`} alt='twitter' /> */}
+                        </Nav.Link>
+
+                        <Nav.Link className={`${styles.iconBox}`}>
+                        <i color='gray' class="bi bi-linkedin"></i> 
+                            {/* <img src={linkedin} className={`${styles.icon}`} alt='linkedin' /> */}
+                        </Nav.Link>
 
                     </div>
                   </Col>
                   <Container  className='border border-1 border-dark mb-2 w-100 border-bottom '><div></div> </Container>
                   <Col sm={12} xs={12} md={4} lg={3} className={`${styles.ColContainer}`}>
-                    <div className={`${styles.linksContainer}`} > 
-                        <p className={`${styles.links}`}>Terms of service</p>
-                        <p className={`${styles.links}`}>FAQs</p>
-                        <p className={`${styles.links}`}>Support</p>
-                        <p className={`${styles.links}`}>Careers</p>
+                    <div className={`${styles.linksContainer} p-0 m-0`} > 
+                        <Nav.Link className={`${styles.links}`}>Terms of service</Nav.Link>
+                        <Nav.Link className={`${styles.links}`}>FAQs</Nav.Link>
+                        <Nav.Link className={`${styles.links}`}>Support</Nav.Link>
+                        <Nav.Link className={`${styles.links}`}>Careers</Nav.Link>
                       </div> <br/>
-                      <div className={`${styles.copyright}`}>
+                      <div className={`${styles.copyright} mt-2`}>
                         <p className={`${styles.link}`}> Copyright © 2023 Waybify. All rights reserved.</p>
                       </div>
                   

@@ -50,22 +50,26 @@
     .link{
         height: 24px !important;    
         font-family: 'Inter', sans-serif !important;
-        font-style: normal;
-        font-weight: 500;
+        font-style: normal !important;
+        font-weight: 500 !important;
         font-size: 12px !important;
         line-height: 24px !important;
         width: 300px !important;
+        text-align: center !important;
     }
     .linksContainer{
-        width: 100% !important;
+        position: relative;
         display: flex !important;
         flex-direction: row !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 0px !important;
+        width: 100% !important;
+        gap: 20px !important;
         text-align: center !important;
         /* margin-top: 25px */
         text-align: center !important;
+        color: #888888 !important;
+
     }
     .links{
         height: 24px !important;    
@@ -74,7 +78,10 @@
         font-weight: 500 !important;
         font-size: 12px !important;
         line-height: 24px !important;
-        width: 140px !important;
+        width: auto !important ;
+        color: #888888 !important;
+
+
     }
    
     
@@ -106,7 +113,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start !important;
+    justify-content: flex-start;
     align-items: center !important;
     gap: 16px;
     text-align: center !important;
@@ -133,16 +140,46 @@
 
 .links{
     height: 24px;
-    width: 100%;
+    width: 100% !important;
 
-    font-family: 'Inter', sans-serif ;
+    font-family: 'Inter', sans-serif !important;
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
+    font-weight: 500 !important;
+    font-size: 12px !important; 
+    line-height: 24px !important; 
+    width: auto !important ;
+    color: #888888 !important;
+
+
+}
+.link{
+    height: 24px;
+    width: 100% !important;
+
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important; 
+    line-height: 24px !important; 
+    width: auto !important ;
+    color: #888888 !important;
+
+
+}
+.link:hover{
+    color: rgb(151, 150, 150) !important;
+}
+.link:focus{
+    color: #003392 !important;
+}
+.links:hover{
+    color: gray !important;
+}
+.links:focus{
+    color: #003392 !important;
 }
 .copyright{
     width: 100%;
     display: flex;
-    justify-content: flex-end !important;
+    justify-content: flex-end ;
 }

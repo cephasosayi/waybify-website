@@ -102,9 +102,15 @@
   }
   
   .navToggle{
-      border: 0px solid !important;
+      border: none !important;
   }
-  
+  .navToggle:focus{
+    border: none;
+    border-color: transparent !important;
+  }
+  .navToggle:focus-visible{
+    border: none;
+  }
   
      
   }

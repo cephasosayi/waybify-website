@@ -35,12 +35,20 @@ function Hero() {
  {/* partner section  */}
  <div className={`${styles.partners}`}>
         <div className={`${styles.firstSec}`}>
-          <p className={`${styles.secTitle}`}>Our Partner</p>
-          <img src={partner} className={`${styles.Pimg}`} alt='partner'/>
+       <div className={`${styles.secTCOnt}`}>
+         <p className={`${styles.secTitle}`}>Our Partner</p>
+        </div>
+      <div>
+        <img src={partner} className={`${styles.Pimg}`} alt='partner'/>
+        </div>
         </div>
         <div className={`${styles.secondSec}`}>
-            <div>  <p className={`${styles.secTitle2}`}>Service Area</p></div>
-            <div> <p className={`${styles.secDesc}`}> Abuja,Jos & Lafia</p></div>
+            <div>  
+              <p className={`${styles.secTitle2}`}>Service Area</p>
+          </div>
+            <div> 
+              <p className={`${styles.secDesc}`}> Abuja,Jos & Lafia</p>
+            </div>
 
         </div>
         <Nav>  <div className={`${styles.thirdSec} ms-auto me-auto`}>
@@ -53,10 +61,6 @@ function Hero() {
         </Nav.Link>
         <Nav.Link href='https://wa.me/2348068257152' target="_blank">
           <i className={`${styles.social} bi bi-whatsapp`}></i></Nav.Link>
-          {/* <img alt='facebook' src={fb} className={`${styles.social}`}/>
-          <img alt='instgram' src={ig}  className={`${styles.social}`}/>
-          <img alt='twitter' src={twitter} className={`${styles.social}`} /> */}
-
         </div>
 </Nav>
       </div>
