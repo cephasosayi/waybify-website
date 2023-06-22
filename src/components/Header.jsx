@@ -34,7 +34,7 @@ function Header() {
                   </Nav>
                   
             <div className={`${styles.navbtn} ms-auto  `}>
-                <Button variant='primary' href='https://wa.me/2348068257152' className={`${styles.btn} `}>
+                <Button variant='primary' target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' className={`${styles.btn} `}>
                       Schedule a pickup                  
                   </Button>     
 

@@ -4,35 +4,71 @@
 .hero{
     background-color: #121212;
     height: 500px !important;
-    width: 100vw !important;
+    width: 100% !important;
+}
+.heroInfoContainer{    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    top: 40px  !important;
+    
 }
 .box{
-display: flex;
-width: 100%;
-position: relative;
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 .info{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
+}
+.textCon{
+    display: flex;
+    flex-direction: column;
+    width: 100wv !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-self: center !important;
+    align-self: center !important;
+    padding-left: 10px !important;
+
+}
+.tagdescCon{
+    display: flex;
+    width: 320px !important;
+    max-width: 420px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 .title{
-    width: 310px !important;
-    height: 170px !important;
-
+    display: flex !important;
+    position: relative  !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 160px !important;
+    text-align: center !important;
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 48px !important;
+    font-size: 45px !important;
     line-height: 52px !important;
     color: #FFFFFF !important;
     mix-blend-mode: normal !important;
     margin-bottom: 0px;
+    margin-left: 7px !important;
+
     }
 .tagline{
-    width: 310px !important;
+    width: 300px !important;
     height: 45px !important;    
     font-family: 'Inter', sans-serif !important;
-    font-style: normal;
+    font-style: normal !important;
     font-weight: 400 !important;
     font-size: 12px !important;
     line-height: 16px !important;
@@ -42,17 +78,20 @@ position: relative;
     margin-top: 25px !important;
 }
 .desc{
-    width: 310px !important;
+    display: flex;
+    width: 100% !important;
     height: 20px !important;
     font-family: 'Inter', sans-serif !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 24px !important;
     text-align: center !important;
     color: #FFFFFF !important;
     mix-blend-mode: normal;
     top: 43px !important;
+    margin-left: 18px !important;
+
 }
 .partners{
    display: flex !important;
@@ -60,15 +99,15 @@ position: relative;
    position: relative !important;
    left: 0 !important;
    bottom: 0 !important;
-   height: 100px !important;
+   height: 150px !important;
    margin-bottom: 150px !important;
    width: 100% !important;
-   margin-top: -25px !important;
+   margin-top: -35px !important;
    border-radius: 0px;
    background: none !important;
  }
 .firstSec{
-    height: 60px ;
+    height: 80px  !important;
     display: flex !important;
     flex-direction: column !important;
     position: relative !important;
@@ -82,7 +121,7 @@ position: relative;
 
 }
 .secondSec{
-    height: 60px ;
+    height: 80px !important;
     display: flex !important;
     flex-direction: column !important;
     position: relative !important;
@@ -118,14 +157,14 @@ position: relative;
     color: gray;
     width: 80px !important;
     border-right: none !important;
+    margin-left: -30px;
 
 }
 .secTitle2{
     margin-top: 13px;
-
     font-style: normal;
-    font-weight: 600 !important;
-    font-size: 14px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
     line-height: 19px !important;
     color: gray;
     width: 150px !important;
@@ -150,8 +189,8 @@ position: relative;
 
 .hero{
     background-color: #121212;
-    height: 700px !important;
-    width: 100% !important;
+    height: 600px !important;
+    width: 100vw !important;
 }
 .info{
     display: flex;
@@ -168,15 +207,14 @@ position: relative;
     width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
-    top: 97px  !important;
+    top: 80px;
     
 }
 
 .title{
-    width: 902px;
+    width: 100%;
     height: 70px;
-
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -185,10 +223,17 @@ position: relative;
     mix-blend-mode: normal;
     /* margin-bottom: 10px; */
     }
+    .tagdescCon{
+        display: flex;
+        width: 613px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 .tagline{
-    width: 376px;
+    width: 100%;
     height: 20px;    
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
@@ -199,9 +244,9 @@ position: relative;
     mix-blend-mode: normal;
 }
 .desc{
-    width: 613px;
+    width: 100%;
     height: 68px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -234,7 +279,7 @@ position: relative;
     border-radius: 10px;
     top: 97px ;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700 !important;
     font-size: 16px !important;
@@ -301,6 +346,8 @@ position: relative;
     justify-content:center !important;
     align-items: center !important;
     border-right: 1px solid grey !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
 
 }
 .Pimg{
@@ -309,7 +356,7 @@ position: relative;
 }
 .secTitle{
     margin-top: 13px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600 !important;
     font-size: 14px !important;
@@ -319,7 +366,7 @@ position: relative;
 }
 .secTitle2{
     margin-top: 13px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600 !important;
     font-size: 14px !important;
@@ -331,7 +378,7 @@ position: relative;
     margin-top: 13px;
     width: 180px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700 !important;
     font-size: 16px !important;
@@ -341,7 +388,8 @@ position: relative;
 
 }
 .social{
-    width: 22px;
-    height: 22px;
-    
+    width: 24px;
+    height: 24px;
+    color: gray !important;
+    cursor: pointer;
 }
