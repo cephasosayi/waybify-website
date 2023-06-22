@@ -6,7 +6,6 @@ import load from '../assets/New/loading.png'
 import happy from '../assets/New/happy.png'
 import arrow from '../assets/New/arrow.png'
 
-import g1 from '../assets/img/g1.png'
 
 
 function Partner() {
@@ -15,7 +14,9 @@ function Partner() {
           <Container>
             <div className={`${styles.textContainer}`}>
                 <h2 className={`${styles.title} me-auto ms-auto`}>Shipping Process</h2>
-                <p className={`${styles.desc} me-auto ms-auto`}>Welcome to Waybify! We're thrilled to have you on board as one of our valued vendors. Our shipping process is designed to be as simple and 
+            </div>
+               <div className={`${styles.descCon}`}>
+                 <p className={`${styles.desc} me-auto ms-auto`}>Welcome to Waybify! We're thrilled to have you on board as one of our valued vendors. Our shipping process is designed to be as simple and 
                 hassle-free as possible, so you can focus on what you do best – running your business.</p>
             </div>
               <Row sm={1} xs={1} md={3} lg={3} className={`${styles.partRow}`}>

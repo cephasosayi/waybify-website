@@ -5,25 +5,27 @@
     .col1{
         order: 1;
         -ms-flex-order: 1;
+        width: 100% !important;
         margin-top: 15px;
+        object-fit: contain !important;
     }
     .topContainer{
         /* background-color: #0E0E0F !important; */
         height: 400px !important;
-        width: 100%;
+        width: 100% !important;
         color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 100px !important;
+        padding-top: 120px !important;
     
     }
     .title{
-        width: 310px !important;
+        width: 100% !important;
         height: auto !important;
         font-style: normal !important;
         font-weight: 700 !important;
-        font-size: 28px !important; 
+        font-size: 32px !important; 
         line-height: 36px !important;
         text-align: left !important;
         /* margin-left: 38px; */
@@ -31,7 +33,7 @@
     
     .desc{
         width: 100% !important;
-        font-style: normal;
+        font-style: normal !important;
         font-weight: 400 !important;
         font-size: 16px !important;
         line-height: 24px !important;
@@ -44,11 +46,13 @@
 .topContainer{
     /* background-color: #0E0E0F !important; */
     height: 800px;
-    width: 100%;
+    width: 100vw;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px !important;
+
 
 }
 .container{
@@ -60,10 +64,10 @@
 
 }
 .title{
-    width: 442px !important;
+    width: 442px;
     height: 110px;
   
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -74,7 +78,7 @@
 
 .desc{
     width: 493px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

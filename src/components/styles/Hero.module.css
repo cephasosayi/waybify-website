@@ -167,9 +167,7 @@
     font-size: 16px !important;
     line-height: 19px !important;
     color: gray;
-    width: 150px !important;
-
-    
+    width: 150px !important;    
 }
 .secDesc{
     margin-top: 13px;
@@ -181,11 +179,8 @@
     color: gray !important;
     margin-left: 0px !important;
     border-right: none !important;
-
-
 }
 }
-
 
 .hero{
     background-color: #121212;
@@ -208,7 +203,6 @@
     justify-content: center !important;
     align-items: center !important;
     top: 80px;
-    
 }
 
 .title{
@@ -348,11 +342,9 @@
     border-right: 1px solid grey !important;
     opacity: 1 !important;
     z-index: 1 !important;
-
 }
 .Pimg{
     height: 30px;
-    /* width: 32px; */
 }
 .secTitle{
     margin-top: 13px;
