@@ -5,22 +5,56 @@
         position: relative;
         top: 0rem !important;
         height: 48rem !important;
-        width: 100%;
+        width: 100% !important;
         padding-top: 0rem !important;
         border-radius: 0;
         color: white;
         padding-bottom: 2rem !important;
     }
     .logo{
-        width: 100%  !important;
-        height: 55px !important;
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .iconBox{
+        width: 28.72px !important;
+        height: 28.51px !important;
+        background: #222222;
+        border-radius: 100%; 
+    
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .icon{
+        width: 12px !important;
+        height: 12px !important;
     }
     .ColContainer{
         width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
-        align-items: center !important; 
+        align-items: center !important;
+    }
+    .copyright{
+        position: absolute;
+        top: 1 !important;
+        bottom: 0 !important;
+        width: 350px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .link{
+        height: 24px !important;    
+        font-family: 'Inter', sans-serif !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 24px !important;
+        width: 300px !important;
     }
     .linksContainer{
         width: 100% !important;
@@ -28,9 +62,19 @@
         flex-direction: row !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 10px;
+        gap: 0px !important;
         text-align: center !important;
         /* margin-top: 25px */
+        text-align: center !important;
+    }
+    .links{
+        height: 24px !important;    
+        font-family: 'Inter', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        line-height: 24px !important;
+        width: 140px !important;
     }
    
     
@@ -89,8 +133,9 @@
 
 .links{
     height: 24px;
+    width: 100%;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif ;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

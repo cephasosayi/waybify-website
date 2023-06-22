@@ -6,15 +6,12 @@
               width: 100vw !important;
               margin: 0 !important;
               padding: 0 !important;
-              background-color: #121212;
-              transition: smooth;
-              transition-duration: 4s;
+              background-color: #121212 !important;
+              transition: smooth !important;
+              transition-duration: 4s !important;
               overflow-x: hidden !important;
-              font-family: 'Inter', sans-serif !important;
-
-              
-
-              
+              font-family: 'Inter', sans-serif !important;          
+ 
               }
 
 }

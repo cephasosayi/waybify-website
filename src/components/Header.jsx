@@ -19,14 +19,14 @@ function Header() {
         id={`offcanvasNavbar-expand-${expand}`}
         aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
         placement="end"
-        className={`${styles.Colp}`}>
-         <Offcanvas.Header closeButton>
+        className={`${styles.Offcanvas}`}>
+         <Offcanvas.Header  closeButton className={`${styles.btnclose}`}>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-          <Nav className=" ms-auto  justify-content-center justify-content-between gap-4" >
+          <Nav className={`${styles.menu} d-flex  ms-lg-auto mt-lg-2 justify-content-lg-center justify-content-lg-between gap-4`} >
             <Nav.Link href="#hiws" className={`${styles.link}`} >About</Nav.Link>
             <Nav.Link href="#contact" className={`${styles.link}`}>FAQs</Nav.Link>
             <Nav.Link href="#link" className={`${styles.link}`}>Blog</Nav.Link>           
@@ -36,7 +36,14 @@ function Header() {
             <div className={`${styles.navbtn} ms-auto  `}>
                 <Button variant='primary' href='https://wa.me/2348068257152' className={`${styles.btn} `}>
                       Book your pickup                  
-                  </Button>              
+                  </Button>     
+
+            <Nav className={`${styles.menu2} d-flex gap-2 mt-3 d-lg-none d-xl-none `} >
+              <h6>React Us</h6>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >WhatsApp</Nav.Link>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >Facebook</Nav.Link>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >Twitter</Nav.Link>
+            </Nav>         
                       
             </div>
             </Offcanvas.Body>

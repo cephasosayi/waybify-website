@@ -11,26 +11,26 @@ import linkedin from '../assets/New/linkedin.png';
 function Footer() {
   return (
       <Container className={`${styles.footer} `}>
-              <Row className={`${styles.footerC} w-100`}>
+              <Row  sm={1} className={`${styles.footerC} w-100`}>
                   <Col sm={12} xs={12} lg={6} md={6} className={`${styles.ColContainer} mb-2`}>
                     <div> 
                         <img src={logo} className={`${styles.logo}`}/>
                     </div>
                     <div className={`${styles.socialContainer}`}>
                         <div className={`${styles.iconBox}`}>
-                            <img src={ig} className={`${styles.icon}`} />
+                            <img src={ig} className={`${styles.icon}`}  alt='Instagram'/>
                         </div>
 
                         <div className={`${styles.iconBox}`}>
-                            <img src={fb} className={`${styles.icon}`} />
+                            <img src={fb} className={`${styles.icon}`} alt='facebook' />
                         </div>
 
                         <div className={`${styles.iconBox}`}>
-                            <img src={twitter} className={`${styles.icon}`} />
+                            <img src={twitter} className={`${styles.icon}`} alt='twitter' />
                         </div>
 
                         <div className={`${styles.iconBox}`}>
-                            <img src={linkedin} className={`${styles.icon}`} />
+                            <img src={linkedin} className={`${styles.icon}`} alt='linkedin' />
                         </div>
 
                     </div>
@@ -44,7 +44,7 @@ function Footer() {
                         <p className={`${styles.links}`}>Careers</p>
                       </div> <br/>
                       <div className={`${styles.copyright}`}>
-                        <p className={`${styles.links}`}> Copyright © 2023 Waybify. All rights reserved.</p>
+                        <p className={`${styles.link}`}> Copyright © 2023 Waybify. All rights reserved.</p>
                       </div>
                   
                   </Col>
