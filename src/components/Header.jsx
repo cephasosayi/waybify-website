@@ -40,9 +40,9 @@ function Header() {
 
             <Nav className={`${styles.menu2} d-flex gap-2 mt-3 d-lg-none d-xl-none `} >
               <h6>React Us</h6>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >WhatsApp</Nav.Link>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >Facebook</Nav.Link>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-3`} >Twitter</Nav.Link>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-whatsapp me-1"></i> WhatsApp</Nav.Link>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-facebook me-1"></i> Facebook</Nav.Link>
+              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-twitter me-1"></i>Twitter</Nav.Link>
             </Nav>         
                       
             </div>
