@@ -10,7 +10,7 @@ function Header() {
   return ( <>
     {[false,].map((expand) => (
     <Navbar  key={'lg'} expand='lg' className={`${styles.navbar} p-0 mb-0`} variant='dark'>
-      <Container className={`${styles.navCon} mt-0`}>
+      <Container className={`${styles.navCon} mb-0 `} style={{ marginTop: '-40px'}}>
         <Navbar.Brand href="https://waybify.com">
           <img src={logo} alt='waybify logo' className={`${styles.logo}`} />
         </Navbar.Brand>
@@ -35,14 +35,14 @@ function Header() {
                   
             <div className={`${styles.navbtn} ms-auto  `}>
                 <Button variant='primary' href='https://wa.me/2348068257152' className={`${styles.btn} `}>
-                      Book your pickup                  
+                      Schedule a pickup                  
                   </Button>     
 
             <Nav className={`${styles.menu2} d-flex gap-2 mt-3 d-lg-none d-xl-none `} >
               <h6>React Us</h6>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-whatsapp me-1"></i> WhatsApp</Nav.Link>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-facebook me-1"></i> Facebook</Nav.Link>
-              <Nav.Link href="#hiws" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-twitter me-1"></i>Twitter</Nav.Link>
+              <Nav.Link href='https://wa.me/2348068257152' className={`${styles.link} ms-2`} ><i color='white' class="bi bi-whatsapp me-1"></i> WhatsApp</Nav.Link>
+              <Nav.Link href="https://facebook.com/waybify" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-facebook me-1"></i> Facebook</Nav.Link>
+              <Nav.Link href="https://instagram.com/waybify" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-twitter me-1"></i>Twitter</Nav.Link>
             </Nav>         
                       
             </div>
