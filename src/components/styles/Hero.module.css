@@ -343,7 +343,7 @@
     width: 480px;
     justify-content:center !important;
     align-items: center !important;
-    border-right: 1px solid grey !important;
+    /* border-right: 1px solid grey !important; */
     opacity: 1 !important;
     z-index: 1 !important;
 }

@@ -13,7 +13,7 @@ function Contact() {
               you can earn extra income as you travel. Apply today and start earning with Waybify</p>
             </Col>
             <Col xs={12} sm={12} md={5} lg={5} className={`${styles.btnContainer}`}>
-              <Button variant='primary' 
+              <Button variant='primary' href='https://forms.gle/CdceFTGs8VtcGJBG9'
               className={`${styles.btn} d-flex ms-lg-auto `}>
                 Join the Team!
                 </Button>

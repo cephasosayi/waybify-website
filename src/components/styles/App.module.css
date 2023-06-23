@@ -76,13 +76,11 @@
         border-radius: 10px;
         border-color: #003392 !important;
         cursor: pointer !important;
-    
         font-family: 'Inter', sans-serif !important;
         font-style: normal !important;
         font-weight: 400 !important;
         font-size: 16px !important;
         line-height: 24px !important;
-
         text-align:  center !important;
         justify-content: center !important;
     }
@@ -95,7 +93,6 @@
         font-family:'Inter';  
         cursor: pointer;  
         font-size: 1rem;
-    
     }
 }
 

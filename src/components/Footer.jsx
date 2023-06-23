@@ -3,10 +3,6 @@ import React from 'react'
 import { Col, Container, ListGroup, ListGroupItem, Nav, Row } from 'react-bootstrap'
 import styles from './styles/Footer.module.css'
 import logo from '../assets/New/logo.png';
-import ig from '../assets/New/ig.png';
-import fb from '../assets/New/fb.png';
-import twitter from '../assets/New/twitter.png';
-import linkedin from '../assets/New/linkedin.png';
 
 function Footer() {
   return (
