@@ -110,6 +110,8 @@
     border-radius: 10px;
     /* margin-left: 38px; */
     border: none !important;
+    animation: fadeIn 0.3s ease-in-out;
+
 
 }
 .btn:hover{

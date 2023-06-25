@@ -137,6 +137,8 @@
 }
 .iconBox:hover{
     transform: scale(.9);
+    transition: transform 0.3s ease-in-out;
+
 }
 .icon{
     width: 18px;
@@ -154,6 +156,8 @@
     line-height: 24px !important; 
     width: auto !important ;
     color: #888888 !important;
+    transition: transform 0.3s ease-in-out;
+
 
 
 }
@@ -192,3 +196,39 @@
     display: flex;
     justify-content: flex-end ;
 }
+
+.whatsappbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsappbutton:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsappbutton a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .fa-whatsapp {
+    font-size: 24px;
+  }
+  

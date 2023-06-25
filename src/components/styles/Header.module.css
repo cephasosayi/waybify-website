@@ -47,6 +47,8 @@
     border: 1px solid #2f2f2f !important;
     color: #fff !important;
     border-radius: 7px !important;
+    animation: fadeIn 0.3s ease-in-out;
+    
   }
  
   .link{
@@ -58,6 +60,8 @@
       text-align: center;    
       color: #FFFFFF !important;   
       cursor: pointer;  
+    animation: fadeIn 0.3s ease-in-out;
+
 
   
   }
@@ -86,6 +90,8 @@
       color: white !important;
       font-size: 1rem;
       cursor: pointer;  
+    animation: fadeIn 0.3s ease-in-out;
+
 
     
   }
@@ -141,11 +147,14 @@
     line-height: 19px;
     text-align: center;    
     color: #FFFFFF !important;    
+    animation: fadeIn 0.3s ease-in-out;
+
 
 }
 .link:hover{
     color: gray !important;
     transform: scale(.9) !important;
+    animation: fadeIn 0.3s ease-in-out;
 
 }
 .link:focus{
@@ -169,6 +178,7 @@
     border: none !important;
     color: white !important;
     font-size: 1rem;
+    animation: fadeIn 0.3s ease-in-out;
   
 }
 .btn:hover{

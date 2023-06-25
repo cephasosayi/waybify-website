@@ -3,6 +3,7 @@ import React from 'react'
 import { Col, Container, ListGroup, ListGroupItem, Nav, Row } from 'react-bootstrap'
 import styles from './styles/Footer.module.css'
 import logo from '../assets/New/logo.png';
+import { FloatingButton } from './FloatingButton';
 
 function Footer() {
   return (
@@ -45,7 +46,17 @@ function Footer() {
                       </div>
                   
                   </Col>
+                  
              </Row>
+             {/* <div className={`${styles.whatsappbutton}`}> */}
+        {/* <a href="https://api.whatsapp.com/send?phone=08068257152" target="_blank"> */}
+          {/* <i class="fab fa-whatsapp" size={24}></i> */}
+          {/* <i  class="bi bi-whatsapp " size={24}></i>  */}
+
+  {/* </a> */}
+{/* </div> */}
+<FloatingButton/>
+
     </Container>
   )
 }

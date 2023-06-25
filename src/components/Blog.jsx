@@ -18,8 +18,8 @@ const Blog = () => {
 
       </Col>
         <div className={`${styles.linkContainer}`}>
-          <Nav.Link target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' >  
-            <p className={`${styles.linkText}`}>Let's help you ship  <img src={arrow} /> </p>
+          <Nav.Link target="_blank" href='https://waybify.medium.com/' >  
+            <p className={`${styles.linkText}`}>See more articles <img src={arrow} /> </p>
           </Nav.Link> 
         </div>
     </Container>

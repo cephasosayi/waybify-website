@@ -1,0 +1,59 @@
+.floatingbuttoncontainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .floatingbutton {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .floatingbutton:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp {
+    font-size: 24px;
+  }
+  
+  .floatingbuttonmessage {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 4px;
+    z-index: 999;
+    font-size: 14px;
+    animation: fadeIn 0.3s ease-in-out;
+    width: 100px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+.floating-button-container.show-message .floating-button-message {
+    display: block; /* Show the message when the show-message class is applied */
+  }
