@@ -87,3 +87,9 @@
     font-size: 14px;
     line-height: 24px;
 }
+.btn:hover{
+   transform: scale(.9);
+   border: 1px solid #003392;
+   font-weight: 700;
+
+}

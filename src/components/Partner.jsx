@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button, Col, Row, Card } from 'react-bootstrap'
+import { Container, Button, Col, Row, Card, Nav } from 'react-bootstrap'
 import styles from './styles/Partner.module.css'
 import pickup from '../assets/New/pickup.png'
 import load from '../assets/New/loading.png'
@@ -48,7 +48,9 @@ Our team arrives        to collect your securely packaged packages</Card.Text>
                   </Col>   
             </Row>
             <div className={`${styles.linkContainer}`}>
+          <Nav.Link target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' >  
                 <p className={`${styles.linkText}`}>Let's help you ship  <img src={arrow} /> </p> 
+           </Nav.Link>
             </div>
           </Container>
           

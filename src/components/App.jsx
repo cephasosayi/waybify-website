@@ -13,7 +13,7 @@ const OurApp = () => {
               <p className={`${styles.desc}`}>We made our app with our customers in mind.</p>
               
               <img src={store} className={`${styles.img} img-fluid`} />
-              <Button target='_blank' href='https://forms.gle/DudMQ2zax5S3v2od6' variant='primary' className={`${styles.btn} mt-4`}>Join our waitlist</Button>
+              <Button target='_blank' href='https://forms.gle/DudMQ2zax5S3v2od6' variant='primary' className={`${styles.btn} mt-4 pt-2`}>Join our waitlist</Button>
             </Col>
      </Container>
      </Container>

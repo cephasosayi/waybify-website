@@ -20,7 +20,7 @@
         height: 28.51px !important;
         background: #222222;
         border-radius: 100%; 
-    
+        justify-self: center;    
         display: flex;
         justify-content: center !important;
         align-items: center !important;
@@ -28,6 +28,7 @@
     .icon{
         width: 12px !important;
         height: 12px !important;
+        align-items: center;
     }
     .ColContainer{
         width: 100% !important;
@@ -132,6 +133,10 @@
     display: flex;
     justify-content: center !important;
     align-items: center !important;
+    justify-self: center;
+}
+.iconBox:hover{
+    transform: scale(.9);
 }
 .icon{
     width: 18px;
@@ -150,6 +155,10 @@
     width: auto !important ;
     color: #888888 !important;
 
+
+}
+.links:hover{
+   transform: scale(.9);
 
 }
 .link{

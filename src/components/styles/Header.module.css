@@ -145,6 +145,8 @@
 }
 .link:hover{
     color: gray !important;
+    transform: scale(.9) !important;
+
 }
 .link:focus{
     color: #003392 !important;
@@ -175,7 +177,7 @@
     color: #000 !important;
     font-weight: 500 !important;
     border: none !important;
-    font-family:'Inter';  
+    font-family:'Inter', sans-serif;  
 
     font-size: 1rem;
 

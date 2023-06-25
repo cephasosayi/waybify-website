@@ -23,7 +23,9 @@ const Solution = () => {
             </ul>
             So why wait? Sign up today and experience the difference for yourself!
             </p>
-            <Button variant='primary' className={`${styles.btn}`}>Let's get started</Button>
+            <Button  
+            target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' 
+            variant='primary' className={`${styles.btn} pt-3`}>Let's get started</Button>
         </Col>
         <Col sm={12} xs={12} lg={6} md={6}  className={`${styles.col2}`}>
             <Image src={photo} className={`${styles.img} ms-lg-5 img-fluid`} />

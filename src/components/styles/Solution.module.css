@@ -112,3 +112,14 @@
     border: none !important;
 
 }
+.btn:hover{
+    background: #fff !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+    border: none !important;
+    font-family:'Inter', sans-serif;  
+
+    font-size: 1rem;
+
+}

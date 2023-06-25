@@ -13,25 +13,21 @@ function Footer() {
                         <img src={logo} className={`${styles.logo}`}/>
                     </div>
                     <div className={`${styles.socialContainer}`}>
-                        <Nav.Link className={`${styles.iconBox}`}>
-                            {/* <img src={ig} className={`${styles.icon}`}  alt='Instagram'/> */}
+                        <Nav.Link href='www.instagram.com/waybify' className={`${styles.iconBox} d-flex justify-content-center`}>
                               <i color='gray' class="bi bi-instagram "></i> 
                         </Nav.Link>
 
-                        <Nav.Link className={`${styles.iconBox}`}>
-                            {/* <img src={fb} className={`${styles.icon}`} alt='facebook' /> */}
-                            <i color='gray' class="bi bi-instagram "></i> 
+                        <Nav.Link href='www.facebook.com/waybify' className={`${styles.iconBox} d-flex justify-content-center`}>
+                            <i color='gray' class="bi bi-facebook "></i> 
 
                         </Nav.Link>
 
-                        <Nav.Link className={`${styles.iconBox}`}>
+                        <Nav.Link href='www.twitter.com/waybify' className={`${styles.iconBox} d-flex justify-content-center`}>
                         <i color='gray' class="bi bi-twitter"></i> 
-                            {/* <img src={twitter} className={`${styles.icon}`} alt='twitter' /> */}
                         </Nav.Link>
 
-                        <Nav.Link className={`${styles.iconBox}`}>
-                        <i color='gray' class="bi bi-linkedin"></i> 
-                            {/* <img src={linkedin} className={`${styles.icon}`} alt='linkedin' /> */}
+                        <Nav.Link href='https://www.linkedin.com/company/waybify/' className={`${styles.iconBox} d-flex justify-content-center `}>
+                          <i color='gray' class="bi bi-linkedin"></i> 
                         </Nav.Link>
 
                     </div>

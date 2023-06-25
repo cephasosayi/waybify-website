@@ -392,3 +392,7 @@
     color: gray !important;
     cursor: pointer;
 }
+.social:hover{
+   transform: scale(.9) !important;
+
+}
