@@ -1,6 +1,6 @@
 
 /* mobile  */
-    @media screen and (max-width: 480px) {
+@media screen and (max-width: 640px){
 .hero{
     background-color: #121212;
     height: 500px !important;
@@ -9,7 +9,6 @@
 .heroInfoContainer{    
     display: flex;
     position: relative;
-    flex-direction: column;
     width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
@@ -17,19 +16,18 @@
     
 }
 .box{
-    display: flex;
-    width: 100%;
-    position: relative;
+    display: flex !important;
+    width: 100% !important;
 }
 .info{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
+    display: flex !important;
+    flex-direction: ' ' !important;
+    width: 100% !important;
 }
 .textCon{
-    display: flex;
-    flex-direction: column;
-    width: 100wv !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
@@ -39,9 +37,8 @@
 
 }
 .tagdescCon{
-    display: flex;
-    width: 320px !important;
-    max-width: 420px !important;
+    display: flex !important;
+    width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
@@ -52,20 +49,19 @@
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    height: 160px !important;
+    height: 120px !important;
     text-align: center !important;
-    font-style: normal;
+    font-style: normal !important;
     font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 52px !important;
+    font-size: 36px !important;
+    line-height: 46px !important;
     color: #FFFFFF !important;
     mix-blend-mode: normal !important;
     margin-bottom: 0px;
-    margin-left: 7px !important;
 
     }
 .tagline{
-    width: 300px !important;
+    width: 100% !important;
     height: 45px !important;    
     font-family: 'Inter', sans-serif !important;
     font-style: normal !important;
@@ -168,9 +164,9 @@
     font-style: normal;
     font-weight: 700 !important;
     font-size: 16px !important;
-    line-height: 19px !important;
+    line-height: 24px !important;
     color: gray;
-    width: 100% !important;   
+    width: 300px !important;   
     /* margin-top: 10px !important;  */
 }
 .secDesc{
@@ -188,8 +184,8 @@
 
 .hero{
     background-color: #121212;
-    height: 600px !important;
-    width: 100vw !important;
+    height: 600px ;
+    width: 100%;
 }
 .info{
     display: flex;
@@ -203,9 +199,9 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 100% !important;
-    justify-content: center !important;
-    align-items: center !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     top: 80px;
 }
 

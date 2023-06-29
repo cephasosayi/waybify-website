@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
 
-       body, html{
+        html, body{
               width: 100vw !important;
-              margin: 0 !important;
-              padding: 0 !important;
               background-color: #121212 !important;
               transition: smooth !important;
               transition-duration: 4s !important;
@@ -16,7 +14,7 @@
 
 }
 
-body, html{
+html, body{
        margin: 0;
        padding: 0;
        background-color: #121212 !important;

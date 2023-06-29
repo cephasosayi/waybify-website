@@ -3,15 +3,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import HowItWorks from "./components/HowItWorks";
-import Locations from "./components/Locations";
 import Partner from "./components/Partner";
 import Solution from "./components/Solution";
 import Blog from "./components/Blog";
 
 function App() {
   return (
-    <div>
+    <div className={`ms-3`}>
       <Header />
       <Hero/>
       <Solution/>

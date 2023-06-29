@@ -1,6 +1,5 @@
-import {MapPin} from 'react-feather'
 import React from 'react'
-import { Col, Container, ListGroup, ListGroupItem, Nav, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Row } from 'react-bootstrap'
 import styles from './styles/Footer.module.css'
 import logo from '../assets/New/logo.png';
 import { FloatingButton } from './FloatingButton';
@@ -11,7 +10,7 @@ function Footer() {
               <Row  sm={1} className={`${styles.footerC} w-100`}>
                   <Col sm={12} xs={12} lg={6} md={6} className={`${styles.ColContainer} mb-2`}>
                     <div> 
-                        <img src={logo} className={`${styles.logo}`}/>
+                        <img alt='logo' src={logo} className={`${styles.logo}`}/>
                     </div>
                     <div className={`${styles.socialContainer}`}>
                         <Nav.Link href='www.instagram.com/waybify' className={`${styles.iconBox} d-flex justify-content-center`}>

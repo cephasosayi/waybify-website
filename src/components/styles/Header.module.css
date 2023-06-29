@@ -1,6 +1,6 @@
 
 /* mobile  */
-@media screen and (max-width: 480px)  {
+@media screen and (max-width: 640px)  {
     .navbar{
         width: 100% !important;
         height: 54px !important;
@@ -128,14 +128,14 @@
 
 /* desktop small  */
 .logo{
-    width: 120px !important;
-    height: 120px !important;
+    width: 120px ;
+    height: 120px ;
     object-fit: contain;
 }
 .navbar{
     font-family:'Inter', sans-serif;
-    height: 94px !important;
-    background-color: #121212 !important;
+    height: 94px ;
+    background-color: #121212 ;
     color: #fff !important;
 }
 
