@@ -1,56 +1,3 @@
-@media screen and (max-width: 575.98px){
-    .title{
-        width: 100% !important;
-        height: auto !important;
-        font-style: normal !important;
-        font-weight: 700 !important;
-        font-size: 32px !important; 
-        line-height: 36px !important;
-        text-align: left !important;
-        /* margin-left: 38px; */
-    }
-    
-    .desc{
-        width: 100% !important;
-        font-style: normal !important;
-        font-weight: 400 !important;
-        font-size: 16px !important;
-        line-height: 24px !important;
-        text-align: left !important;
-        color: gray;
-        
-    }
-
-
-}
-
-
-
-/* tablet  */
-@media screen and (max-width: 991.98px){
-    .title{
-        width: 100% !important;
-        height: auto !important;
-        font-style: normal !important;
-        font-weight: 700 !important;
-        font-size: 32px !important; 
-        line-height: 36px !important;
-        text-align: center !important;
-        /* margin-left: 38px; */
-    }
-    
-    .desc{
-        width: 100% !important;
-        font-style: normal !important;
-        font-weight: 400 !important;
-        font-size: 16px !important;
-        line-height: 24px !important;
-        text-align: center !important;
-        
-    }
-
-
-}
 
 
     .title{
@@ -92,3 +39,65 @@
     color: white;
 }
 
+
+
+
+
+
+/* tablet  */
+@media screen and (max-width: 991.98px){
+    .title{
+        width: 100% !important;
+        height: auto !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 32px !important; 
+        line-height: 36px !important;
+        text-align: center !important;
+        /* margin-left: 38px; */
+    }
+    
+    .desc{
+        width: 100% !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        text-align: center !important;
+        
+    }
+
+
+}
+
+
+
+
+
+
+/* mobile  */
+@media screen and (max-width: 575.98px){
+    .title{
+        width: 100% !important;
+        height: auto !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 32px !important; 
+        line-height: 36px !important;
+        text-align: left !important;
+        /* margin-left: 38px; */
+    }
+    
+    .desc{
+        width: 100% !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        text-align: left !important;
+        color: gray !important;
+        
+    }
+
+
+}

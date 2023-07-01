@@ -10,7 +10,7 @@ const Blog = () => {
     <Container >
       {/* <p>Testimonial</p> */}
       <h2 className={`${styles.title} mt-4 ms-auto me-auto`}>Waybify Newsroom</h2>
-      <p className={`${styles.desc} text-white ms-auto me-auto`}>
+      <p className={`${styles.desc}  ms-auto me-auto`}>
         Our features, journey, tips and us being us. </p>      
       <Col sm={12} md={12} lg={12} xl={12} className='d-flex justify-content-center'>
       <iframe title='blog' src='https://widgets.sociablekit.com/medium-publication-feed/iframe/158723' 
