@@ -1,5 +1,13 @@
+
+
+
+/* tablet  */
+@media screen and (min-width: 991.98px){
+}
+
 /* mobile  */
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 575.98px){
     .container{
         height: auto !important;
         /* margin-top: 200px  !important; */
@@ -27,12 +35,12 @@
     }
     .title{
         width: 310px !important;
-        height: 96px !important;
+        height: 76px !important;
         font-family: 'Inter', sans-serif !important;
         font-style: normal !important;
         font-weight: 700 !important;
-        font-size: 38px !important;
-        line-height: 48px !important;
+        font-size: 32px !important;
+        line-height: 36px !important;
         align-items: center !important;
         text-align:  center !important;
     }
@@ -42,8 +50,8 @@
         font-family: 'Inter', sans-serif !important;
         font-style: normal;
         font-weight: 400 !important;
-        line-height: 24px !important; 
         font-size: 16px !important;
+        line-height: 24px !important; 
         align-items: center !important;
         text-align:  center !important;
     }

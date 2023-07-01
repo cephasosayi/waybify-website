@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576.98px) {
     /* .container{
         height: 300px !important;
     } */
@@ -29,6 +29,14 @@
        /* or 150% */
     }
 }
+
+
+
+/* tablet  */
+@media screen and (max-width: 991.98px){
+}
+
+
 
 .container{
     width: 100%;

@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-@media screen and (max-width: 640px) {
-
-        html, body{
-              width: 100vw !important;
-              background-color: #121212 !important;
-              transition: smooth !important;
-              transition-duration: 4s !important;
-              overflow-x: hidden !important;
-              font-family: 'Inter', sans-serif !important;          
- 
-              }
-
-}
 
 html, body{
        margin: 0;
@@ -26,3 +13,29 @@ html, body{
       
       }
  
+      @media screen and (max-width: 576.98px){
+
+            html, body{
+                  width: 100% !important;
+                  background-color: #121212 !important;
+                  transition: smooth !important;
+                  transition-duration: 4s !important;
+                  overflow-x: hidden !important;
+                  font-family: 'Inter', sans-serif !important;          
+     
+                }
+    
+    }
+
+    @media screen and (max-width: 991.98px){
+      
+      html, body{
+            width: 100% !important;
+            background-color: #121212 !important;
+            transition: smooth !important;
+            transition-duration: 4s !important;
+            overflow-x: hidden !important;
+            font-family: 'Inter', sans-serif !important;          
+
+          }
+    }

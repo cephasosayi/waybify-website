@@ -10,7 +10,7 @@ import arrow from '../assets/New/arrow.png'
 
 function Partner() {
   return (
-      <Container fluid className={`${styles.container}`}>
+      <Container fluid className={`${styles.container} `}>
           <Container>
             <div className={`${styles.textContainer}`}>
                 <h2 className={`${styles.title} me-auto ms-auto`}>Shipping Process</h2>

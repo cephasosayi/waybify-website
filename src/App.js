@@ -9,7 +9,7 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <div className={`ms-3`}>
+    <div className={``}>
       <Header />
       <Hero/>
       <Solution/>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576.98px) {
 
     .footer{
         position: relative;
@@ -87,6 +87,14 @@
    
     
 }
+
+
+
+/* tablet  */
+@media screen and (max-width: 991.98px){
+}
+
+
 .footer{
     height: 200px !important;
     width: 100% !important;

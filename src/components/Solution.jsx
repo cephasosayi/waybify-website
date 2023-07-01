@@ -5,10 +5,10 @@ import photo from '../assets/New/info.png'
 
 const Solution = () => {
   return (
-    <Container fluid className={`${styles.topContainer}`}>
+    <Container fluid className={`${styles.topContainer} ms-lg-0`}>
     <Container className={`${styles.container}`}>
       <Row className='d-flex justify-content-center' >
-        <Col sm={12} xs={12} lg={6} md={6}  className={`${styles.col1}`}>
+        <Col sm={12} xs={12} md={6} lg={6}  className={`${styles.col1}`}>
             <h2 className={`${styles.title}`}>Shipping Solutions for Social Vendors</h2>
             <p className={`${styles.desc}`}>
             We understand that shipping can be a hassle, with issues like missing packages, driving going beyond the delivery park, lack of tracking, and unreliable drivers all too common.
@@ -27,7 +27,7 @@ const Solution = () => {
             target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' 
             variant='primary' className={`${styles.btn} pt-3`}>Let's get started</Button>
         </Col>
-        <Col sm={12} xs={12} lg={6} md={6}  className={`${styles.col2}`}>
+        <Col sm={12} xs={12} md={6} lg={6}   className={`${styles.col2}`}>
             <Image src={photo} className={`${styles.img} ms-lg-5 img-fluid`} />
         </Col>
       </Row>
