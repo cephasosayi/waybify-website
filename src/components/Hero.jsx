@@ -46,7 +46,7 @@ function Hero() {
               <p className={`${styles.secTitle}`}>Service Area</p>
           </div>
             <div> 
-              <p className={`${styles.secDesc}`}> Abuja,Jos & Lafia</p>
+              <p className={`${styles.secDesc}`}>Abuja, Jos & Lafia</p>
             </div>
 
         </div>

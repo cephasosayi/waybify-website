@@ -589,12 +589,12 @@
     }
     .secDesc{
         margin-top: -10px !important;
-        width: 150px !important;
+        width: 100% !important;
         font-style: normal !important;
         font-weight: 500 !important;
         font-size: 15px !important;
         line-height: 24px !important;
-        color: gray !important;
+        color: #7F7F7F !important;
         margin-left: 5px !important;
         border-right: none !important;
     }
