@@ -29,7 +29,7 @@ function Header() {
           <Nav className={`${styles.menu} d-flex  ms-lg-auto mt-lg-2 justify-content-lg-center justify-content-lg-between gap-4`} >
             <Nav.Link href="#hiws" className={`${styles.link}`} >About</Nav.Link>
             <Nav.Link href="#contact" className={`${styles.link}`}>FAQs</Nav.Link>
-            <Nav.Link href="www.medium.com/@waybify" target='_blank' className={`${styles.link}`}>Blog</Nav.Link>           
+            <Nav.Link href="www.medium.com/waybify" target='_blank' className={`${styles.link}`}>Blog</Nav.Link>           
             <Nav.Link href="#link" className={`${styles.link}`}>Contact</Nav.Link>           
                   </Nav>
                   

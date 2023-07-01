@@ -20,7 +20,7 @@ export const FloatingButton = () => {
       <div className={`${styles.floatingbuttoncontainer}`}>
         { showMessage && <div className={`${styles.floatingbuttonmessage}`}> 
             Send us a message</div> }
-        <a href="https://api.whatsapp.com/send?phone=08068257152" target="_blank" rel='noreferrer'>
+        <a href='https://wa.me/2348068257152' target="_blank" rel='noreferrer'>
           <div className={`${styles.floatingbutton}`} >
           <i  className={`${styles.whatsapp} bi bi-whatsapp`} ></i> 
           </div>
