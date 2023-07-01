@@ -39,7 +39,7 @@ function Header() {
                   </Button>     
 
             <Nav className={`${styles.menu2} d-flex gap-2 mt-3 d-lg-none d-xl-none `} >
-              <h6>React Us</h6>
+              <h6>Reach us</h6>
               <Nav.Link href='https://wa.me/2348068257152' className={`${styles.link} ms-2`} ><i color='white' class="bi bi-whatsapp me-1"></i> WhatsApp</Nav.Link>
               <Nav.Link href="https://facebook.com/waybify" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-facebook me-1"></i> Facebook</Nav.Link>
               <Nav.Link href="https://instagram.com/waybify" className={`${styles.link} ms-2`} ><i color='white' class="bi bi-twitter me-1"></i>Twitter</Nav.Link>
