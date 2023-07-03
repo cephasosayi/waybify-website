@@ -1,0 +1,220 @@
+.faqcontainer{
+    height: auto;
+    width: 100%;
+    background-color: #121212 !important;
+
+
+}
+.section{
+    display: flex;
+    width: 100%;
+    margin-bottom: 82px !important;
+    margin-top: 0px !important;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.title{
+    width: 100%;
+    height: 46px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;  
+    margin-top: 40px;
+    text-align: center !important;
+
+    color: #fff;
+
+}
+.desc{
+    width: 100% !important;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center !important;
+    color: #fff;
+
+}
+.faq{
+    display: flex;
+    width: 64.4%;
+    justify-content: center;
+    align-items: center;
+}
+.acc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-left: 200px;
+    gap: 7px;
+
+}
+.accbody{
+    width: 100%;
+    text-align: left;
+    gap: 7px;
+    border: 2px solid #121212;
+    border-radius: 5px;
+
+
+
+
+}
+.accTitle{
+    height: 60px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: none !important;
+    color: #575353;
+    background: transparent !important;
+    border: 2px solid #121212;
+}
+
+
+.accTitle:focus{
+    box-shadow: none !important;
+    background: #121212 !important;
+    color: #575353 !important;
+}
+.accTitle:focus-visible{
+    box-shadow: none !important;
+    background: #121212 !important;
+    color: #575353 !important;
+}
+.accItem{
+    border: 0 !important;
+    box-shadow: none !important;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575.98px) {
+    .faqcontainer{
+        height: auto;
+        width: 100%;
+        background-color: #121212 !important;
+    
+    
+    }
+    .section{
+        display: flex;
+        width: 100%;
+        margin-bottom: 82px !important;
+        margin-top: 0px !important;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    
+    .title{
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        width: 310px !important;
+        height: 58px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 32px !important;
+        line-height: 36px !important;
+        color: #fff;
+    
+    }
+    .desc{
+        width: 100% !important;
+        height: 72px !important;   
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        font-family: 'Inter', sans-serif !important;
+        margin-bottom: 25px;
+        margin-top: 35px;
+        color: gray;
+    
+    }
+    .faq{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .acc{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-left: 0px !important;
+        gap: 24px !important;
+    
+    }
+    .accbody{
+        width: 100% !important;
+        text-align: left;
+        gap: 7px;
+        border: 2px solid #121212;
+        margin-top: 20px;
+        border-radius: 4px;
+    
+    
+    }
+    .accTitle{
+        height: 55px;
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        box-shadow: none !important;
+        color: #575353;
+        background: transparent !important;
+        border: 5px solid #121212 !important;
+    }
+    
+    
+    .accTitle:focus{
+        box-shadow: none !important;
+        background: #121212 !important;
+        color: #575353 !important;
+    }
+    .accTitle:focus-visible{
+        box-shadow: none !important;
+        background: #121212 !important;
+        color: #575353 !important;
+    }
+    .accItem{
+        border: 0 !important;
+        box-shadow: none !important;
+    
+        
+    
+    }
+    
+    
+    
+    
+}
