@@ -8,9 +8,9 @@ import arrow from '../assets/New/arrow.png'
 
 
 
-function Partner() {
+function Partner({id}) {
   return (
-      <Container fluid className={`${styles.container} `}>
+      <Container id={id} fluid className={`${styles.container} `}>
           <Container>
             <div className={`${styles.textContainer}`}>
                 <h2 className={`${styles.title} me-auto ms-auto`}>Shipping Process</h2>

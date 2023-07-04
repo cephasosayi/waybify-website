@@ -7,19 +7,19 @@ import Partner from "./components/Partner";
 import Solution from "./components/Solution";
 import Blog from "./components/Blog";
 import { Faq } from "./components/FAQ/Faq";
-import Locations from "./components/Locations";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
     <div >
       <Header />
       <Hero/>
-      <Solution/>
-      <Partner />
-      <Locations/>
-      <Blog/>
+      <Solution id='about'/>
+      <Partner id='hiws'/>
+      <Testimonial id='testimonial'/>
+      <Blog id='blog'/>
       <OurApp/>
-      <Faq/>
+      <Faq id='faq'/>
       <Contact />
       <Footer/>
       </div>

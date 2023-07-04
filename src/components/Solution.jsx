@@ -3,9 +3,9 @@ import styles from './styles/Solution.module.css';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import photo from '../assets/New/info.png'
 
-const Solution = () => {
+const Solution = ({id}) => {
   return (
-    <Container fluid className={`${styles.topContainer} ms-lg-0`}>
+    <Container fluid id={id} className={`${styles.topContainer} ms-lg-0`}>
     <Container className={`${styles.container}`}>
       <Row className='d-flex justify-content-center' >
         <Col sm={12} xs={12} md={6} lg={6}  className={`${styles.col1}`}>
@@ -25,7 +25,7 @@ const Solution = () => {
             </p>
             <Button  
             target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' 
-            variant='primary' className={`${styles.btn} pt-3`}>Let's get started</Button>
+            variant='primary' className={`${styles.btn} me-auto me-lg-0 me-md-0 me-xl-0 pt-3`}>Let's get started</Button>
         </Col>
         <Col sm={12} xs={12} md={6} lg={6}   className={`${styles.col2}`}>
             <Image src={photo} className={`${styles.img} ms-lg-5 img-fluid`} />

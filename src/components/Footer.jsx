@@ -36,7 +36,7 @@ function Footer() {
                   <Col sm={12} xs={12} md={4} lg={3} className={`${styles.ColContainer}`}>
                     <div className={`${styles.linksContainer} p-0 m-0`} > 
                         <Nav.Link className={`${styles.links}`}>Terms of service</Nav.Link>
-                        <Nav.Link className={`${styles.links}`}>FAQs</Nav.Link>
+                        <Nav.Link href='#faq' className={`${styles.links}`}>FAQs</Nav.Link>
                         <Nav.Link className={`${styles.links}`}>Support</Nav.Link>
                         <Nav.Link className={`${styles.links}`}>Careers</Nav.Link>
                       </div> <br/>

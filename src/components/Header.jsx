@@ -27,10 +27,11 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
           <Nav className={`${styles.menu} d-flex  ms-lg-auto mt-lg-2 justify-content-lg-center justify-content-lg-between gap-4`} >
-            <Nav.Link href="#hiws" className={`${styles.link}`} >About</Nav.Link>
-            <Nav.Link href="#contact" className={`${styles.link}`}>FAQs</Nav.Link>
-            <Nav.Link href="www.medium.com/waybify" target='_blank' className={`${styles.link}`}>Blog</Nav.Link>           
-            <Nav.Link href="#link" className={`${styles.link}`}>Contact</Nav.Link>           
+            <Nav.Link href="#about" className={`${styles.link}`} >About</Nav.Link>
+            <Nav.Link href="#hiws" className={`${styles.link}`} >How it works</Nav.Link>
+            <Nav.Link href="#faq" className={`${styles.link}`}>FAQs</Nav.Link>
+            <Nav.Link href="#testimonial" className={`${styles.link}`}>Testimonials</Nav.Link>
+            <Nav.Link href="#blog" className={`${styles.link}`}>Blog</Nav.Link>           
                   </Nav>
                   
             <div className={`${styles.navbtn} ms-auto  `}>

@@ -132,27 +132,26 @@
     }
     
     .title{
-        width: 100%;
-        font-family: 'Inter', sans-serif;
-        width: 310px !important;
-        height: 58px !important;
+        width: 100% !important;
+        height: auto !important;
         font-style: normal !important;
         font-weight: 700 !important;
-        font-size: 32px !important;
+        font-size: 32px !important; 
         line-height: 36px !important;
+        text-align: left !important;
+        /* margin-left: 38px; */
         color: #fff;
     
     }
     .desc{
         width: 100% !important;
-        height: 72px !important;   
-        font-style: normal;
+        font-style: normal !important;
         font-weight: 400 !important;
         font-size: 16px !important;
         line-height: 24px !important;
-        font-family: 'Inter', sans-serif !important;
-        margin-bottom: 25px;
-        margin-top: 35px;
+        text-align: left !important;
+        color: gray !important;
+        margin-top: 15px;
         color: gray;
     
     }

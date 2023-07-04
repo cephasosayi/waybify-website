@@ -4,9 +4,9 @@ import styles from '../components/styles/Blog.module.css';
 import arrow from '../assets/New/arrow.png'
 
 
-const Blog = () => {
+const Blog = ({id}) => {
   return (
-    <Container fluid className='bg-dark d-flex justify-content-center text-center'>
+    <Container id={id} fluid className='bg-dark d-flex justify-content-center text-center'>
     <Container >
       {/* <p>Testimonial</p> */}
       <h2 className={`${styles.title} mt-4 ms-auto me-auto`}>Waybify Newsroom</h2>

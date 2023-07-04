@@ -4,8 +4,8 @@ import { Col, Container, Button,Accordion } from 'react-bootstrap';
 
 
 
-export const Faq = () => {
-  return (<Container fluid className={`${styles.faqcontainer} border-top border-dark border-1`}>
+export const Faq = ({id}) => {
+  return (<Container id={id} fluid className={`${styles.faqcontainer} border-top border-dark border-1`}>
         <Container className={`${styles.section} `}>
             <Col lg={12} xs={12} sm={12} md={12} >
             <div className={` ms-auto me-auto ${styles.caption}`}>
