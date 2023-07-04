@@ -47,13 +47,7 @@ function Footer() {
                   </Col>
                   
              </Row>
-             {/* <div className={`${styles.whatsappbutton}`}> */}
-        {/* <a href="https://api.whatsapp.com/send?phone=08068257152" target="_blank"> */}
-          {/* <i class="fab fa-whatsapp" size={24}></i> */}
-          {/* <i  class="bi bi-whatsapp " size={24}></i>  */}
-
-  {/* </a> */}
-{/* </div> */}
+          
 <FloatingButton/>
 
     </Container>

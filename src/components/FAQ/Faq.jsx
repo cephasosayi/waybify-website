@@ -1,6 +1,6 @@
 import styles from './Faq.module.css';
 import React from 'react'
-import { Col, Container, Button,Accordion } from 'react-bootstrap';
+import { Col, Container, Accordion } from 'react-bootstrap';
 
 
 

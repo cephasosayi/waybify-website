@@ -15,12 +15,12 @@ function Testimonial({id}) {
                 clients, and we're thrilled to share their stories with you. From startups to 
                 established enterprises, our clients have entrusted us with moving items worth more than 2 million naira within our service area. </p>          </div>
                 <br/>
-       <Col sm={12} md={12} lg={12} xl={12}>
+       <Col sm={12} md={12} lg={12} xl={12} >
       
-       <iframe height="600px" 
+       <iframe className='p-1' height="600px" 
        id="testimonialto-waybify-testimonials-tag-all-dark-animated" 
        src="https://embed-v2.testimonial.to/w/waybify-testimonials?animated=on&theme=dark&shadowColor=000000&speed=1&tag=all" 
-       frameborder="0" scrolling="no" width="100%"></iframe>
+       frameborder="0" scrolling="no" width="100%" title='Waybify Testimonials'></iframe>
        </Col>
        <div className={`${styles.linkContainer}`}>
           <Nav.Link target="_blank" href='https://testimonial.to/waybify-testimonials' >  

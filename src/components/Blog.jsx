@@ -8,7 +8,6 @@ const Blog = ({id}) => {
   return (
     <Container id={id} fluid className='bg-dark d-flex justify-content-center text-center'>
     <Container >
-      {/* <p>Testimonial</p> */}
       <h2 className={`${styles.title} mt-4 ms-auto me-auto`}>Waybify Newsroom</h2>
       <p className={`${styles.desc}  ms-auto me-auto`}>
         Our features, journey, tips and us being us. </p>      

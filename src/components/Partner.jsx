@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button, Col, Row, Card, Nav } from 'react-bootstrap'
+import { Container, Col, Row, Card, Nav } from 'react-bootstrap'
 import styles from './styles/Partner.module.css'
 import pickup from '../assets/New/pickup.png'
 import load from '../assets/New/loading.png'
@@ -40,7 +40,7 @@ Our team arrives        to collect your securely packaged packages</Card.Text>
                   </Col>    
                   <Col  sm={12} xs={12} md={ 4} lg={4}>
                     <Card className={`${styles.card}`}>
-                        <Card.Img src={happy} className={`${styles.cardImg} img-fluid`} 
+                        <Card.Img  src={happy} className={`${styles.cardImg} img-fluid`} 
                               alt='Schedule a pickup' />
                         <Card.Title className={`${styles.cardTitle} `}>Happy Customer</Card.Title>
                         <Card.Text className={`${styles.cardText} `}>Put a smile on your customers face as we do same to you.</Card.Text>
@@ -49,7 +49,7 @@ Our team arrives        to collect your securely packaged packages</Card.Text>
             </Row>
             <div className={`${styles.linkContainer}`}>
           <Nav.Link target="_blank" href='https://forms.gle/DbMQLzbLJR5ZLRcx8' >  
-                <p className={`${styles.linkText}`}>Let's help you ship  <img src={arrow} /> </p> 
+                <p className={`${styles.linkText}`}>Let's help you ship  <img src={arrow} alt='icon' /> </p> 
            </Nav.Link>
             </div>
           </Container>
