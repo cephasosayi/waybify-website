@@ -7,14 +7,16 @@ import Partner from "./components/Partner";
 import Solution from "./components/Solution";
 import Blog from "./components/Blog";
 import { Faq } from "./components/FAQ/Faq";
+import Locations from "./components/Locations";
 
 function App() {
   return (
-    <div className={``}>
+    <div >
       <Header />
       <Hero/>
       <Solution/>
       <Partner />
+      <Locations/>
       <Blog/>
       <OurApp/>
       <Faq/>

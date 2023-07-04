@@ -38,8 +38,8 @@ export const Faq = () => {
   </Accordion.Item> 
 
   <Accordion.Item eventKey="3" className={`${styles.accItem} mb-3 mb-md-0 mb-lg-0 mb-xl-0`}>
-    <Accordion.Header className={`bg-dark text-dark  ${styles.accTitle}`}>
-    What types of products can I deliver through Waybify?</Accordion.Header>
+    <Accordion.Header className={`bg-dark text-dark  ${styles.accTitle}`}>    
+What products can I deliver through Waybify?</Accordion.Header>
     <Accordion.Body className={`${styles.accbody} `}>
     We handle a wide range of products, including but not limited to fashion items, 
     gadgets, and cosmetic/health products. However, <b> there may be certain restrictions on prohibited 

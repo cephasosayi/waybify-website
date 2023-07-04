@@ -1,84 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #121212 !important;
 
 
-
-.placetop{
-position: relative;
-top: 15rem;
-height: 250px;
-background: url('../../assets/img/Map.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-bottom: 5rem;
-padding: 15px;
 }
 .title{
-    font-family:'Inter', sans-serif;
-    line-height: 48px;
-    justify-content: center;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: 2rem;
-}
-.placeCont{
-    position: relative;
     width: 100%;
-    top: 2rem;
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-evenly;
+    height: 46px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;  
+    margin-top: 40px;
+    text-align: center;
+
+    color: #fff;
+
+}
+.desc{
+    width: 85%;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    color: #fff;
+
 }
 
-.placeName{
-    font-family:'Inter', sans-serif;
-    font-weight: bold;
-    margin-top: 7px;
- 
-}
 
 
 
-
-@media screen and (max-width: 480px) {
-
-    .placetop{
-        position: relative;
-        top: 7rem;
-        height: 180px;
-        background: url('../../assets/img/Map.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        bottom: 5rem;
-        padding: 5px;
-        }
-        .title{
-            font-family:'Inter', sans-serif;
-            line-height: 38px;
-            font-size: 1.5rem;
-            justify-content: center;
-            font-weight: 700;
-            font-style: normal;
-            margin-top:1rem;
-        }
-        .placeCont{
-            position: relative;
-            width: 100%;
-            top: 2rem;
-            display: flex;
-            flex-direction: row !important;
-            justify-content: space-evenly;
-            left: -2rem;
-        }
+@media screen and (max-width: 575.98px) {
+    .container{
+        height: auto;
+        width: 100%;
+        background-color: #121212 !important;   
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    
+    .title{
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        width: 310px !important;
+        height: 58px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 32px !important;
+        line-height: 36px !important;
+        color: #fff;
         
-        .placeName{
-            font-family:'Inter', sans-serif;
-            font-weight: bold;
-            margin-top: 7px;
-         
-        }
-        
-
+    
+    }
+    .desc{
+        width: 100% !important;
+        height: 82px !important;   
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        font-family: 'Inter', sans-serif !important;
+        margin-bottom: 25px;
+        margin-top: 35px;
+        color: gray;
+        margin-bottom: 20px !important;
+    
+    }
 }
