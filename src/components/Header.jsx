@@ -9,7 +9,7 @@ function Header() {
  
   return ( <>
     {[false,].map((expand) => (
-    <Navbar  key={'lg'} expand='lg' className={`${styles.navbar} p-0 mb-0`} variant='dark'>
+    <Navbar  key={'lg'} expand='lg'  className={`${styles.navbar} p-0 mb-0`} variant='dark'>
       <Container className={`${styles.navCon} mb-0 `} style={{ marginTop: '-40px'}}>
         <Navbar.Brand href="https://waybify.com">
           <img src={logo} alt='waybify logo' className={`${styles.logo}`} />

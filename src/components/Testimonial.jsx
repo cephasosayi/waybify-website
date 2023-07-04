@@ -17,7 +17,7 @@ function Testimonial({id}) {
                 <br/>
        <Col sm={12} md={12} lg={12} xl={12} >
       
-       <iframe className='p-1' height="600px" 
+       <iframe height="600px" 
        id="testimonialto-waybify-testimonials-tag-all-dark-animated" 
        src="https://embed-v2.testimonial.to/w/waybify-testimonials?animated=on&theme=dark&shadowColor=000000&speed=1&tag=all" 
        frameborder="0" scrolling="no" width="100%" title='Waybify Testimonials'></iframe>
