@@ -86,6 +86,16 @@
 
 /* mobile  */
 @media screen and (max-width: 575.98px){
+    .container{
+        display: flex;
+        height: auto;
+        width: 100vw !important;
+        text-align: center;
+        justify-content: center;
+        background-color: #121212 !important;
+    
+    
+    }
     .title{
         width: 100% !important;
         height: auto !important;
@@ -109,6 +119,13 @@
         margin-top: 15px;
         
         
+    }
+    .frame{
+        width: 100% !important;
+    }
+    .iframe{
+        padding: 0px;
+        width: 100% !important;
     }
 
 
