@@ -7,7 +7,7 @@ import arrow from '../assets/New/arrow.png'
 function Testimonial({id}) {
   return (
       <Container id={id} className={`${styles.container} border-1 border-top border-dark`} fluid>
-      <Container>
+      <Container className={`${styles.container2}`}>
       <div className={` ms-lg-auto me-lg-auto mt-4 `}>
                 <h2 className={`${styles.title}`}>Hear the Waybify Experience!</h2>
                 <p className={`${styles.desc} `}> 
@@ -24,7 +24,8 @@ function Testimonial({id}) {
        frameborder="0" scrolling="no" width="100%" title='Waybify Testimonials'></iframe>
 
        
-      </div> </Col>
+      </div> 
+      </Col>
        <div className={`${styles.linkContainer}`}>
           <Nav.Link target="_blank" href='https://testimonial.to/waybify-testimonials' >  
             <p className={`${styles.linkText}`}>Share your experience! <img src={arrow} alt='arrow sign' /> </p>
