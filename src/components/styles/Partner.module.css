@@ -262,6 +262,7 @@
     .desc{
         width: 100% !important;
         height: 72px !important;   
+        max-height: 85px;
         font-style: normal;
         font-weight: 400 !important;
         font-size: 16px !important;
